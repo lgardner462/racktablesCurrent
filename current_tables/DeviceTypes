@@ -1,0 +1,48 @@
+Brocade VDX6740,NetworkSwitch
+HP 2920 Switch,NetworkSwitch
+HP 5900AF 10G,NetworkSwitch
+HP 5930 40G,NetworkSwitch
+Cisco Fex,NetworkSwitch
+Mellanox SX6018,NetworkSwitch
+Mellanox SX6025,NetworkSwitch
+Mellanox SX6036,NetworkSwitch
+Mellanox SX6036F,NetworkSwitch
+Melloanox 6036F,NetworkSwitch
+Dell N3048,NetworkSwitch
+Dell N4032F,NetworkSwitch
+Dell PC5524,NetworkSwitch
+Dell PC5548,NetworkSwitch
+Dell PC8132F,NetworkSwitch
+Intel Omnipath Edge 100,NetworkSwitch
+SGI 4TiB UV2000,Server
+SGI SMI Unit,Server
+Compute Node,Server
+Dell C4140,Server
+Dell R320,Server
+Dell R430,Server
+Dell R620,Server
+Dell R630,Server
+Dell R715,Server
+Dell R720,Server
+Dell R730,Server
+Dell R815,Server
+HP DL-360,Server
+HP DL-580,Server
+HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB,Server
+HP ProLiant DL360 Gen9/ProLiant DL360 Gen9,Server
+HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB,Server
+HP ProLiant DL380 Gen9/ProLiant DL380 Gen9 with dual K80 @256GiB,Server
+HP ProLiant DL60 @ 128GiB,Server
+HP ProLiant DL60 Gen9/ProLiant DL60 Gen9,Server
+MOC Intel Cache Server,Server
+Lenovo x3550,Server
+Lenovo x3850,Server
+MD3460e,DiskArray
+Dell MD3220,DiskArray
+Dell MD3460,DiskArray
+Dell MDS3260,DiskArray
+Dell MDS3260e,DiskArray
+HP MSA2040,DiskArray
+Optical Patch,PatchPanel
+Copper Patch,PatchPanel
+Cable Management Arm,CableOrganizer

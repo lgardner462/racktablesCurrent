@@ -1,0 +1,1 @@
+'r5-pa-c22-fex--1' , '5' , 'a' , '22' , '40' , '40' , 'Cisco Fex' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'NetworkSwitch'

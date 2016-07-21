@@ -1,0 +1,5 @@
+'r5-pc-c2-optipatch-1' , '5' , 'a' , '02' , '43' , '44' , 'Optical Patch' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'PatchPanel'
+'r5-pc-c2-cupatch-1' , '5' , 'a' , '02' , '42' , '42' , 'Copper Patch' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'PatchPanel'
+'r5-pc-c2-carm-1' , '5' , 'a' , '02' , '41' , '41' , 'Cable Management Arm' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'CableOrganizer'
+'moc_e1_brocade_D5_r5_pa_c2' , '5' , 'a' , '02' , '41' , '41' , 'Brocade VDX6740' , '{ppool: "engaging1_moc"},{pgroup: "MOC BU"}' , 'NetworkSwitch'
+'r5-pa-c2-fex--1' , '5' , 'a' , '02' , '40' , '40' , 'Cisco Fex' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'NetworkSwitch'

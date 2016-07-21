@@ -1,0 +1,33 @@
++-----------------------+
+| BlackBox              |
+| CableOrganizer        |
+| console               |
+| DiskArray             |
+| FC switch             |
+| KVM switch            |
+| Management interface  |
+| MediaConverter        |
+| Modem                 |
+| multiplexer           |
+| Network chassis       |
+| Network security      |
+| Network switch        |
+| PatchPanel            |
+| PDU                   |
+| Power supply          |
+| Power supply chassis  |
+| Router                |
+| serial console server |
+| Server                |
+| Server chassis        |
+| Shelf                 |
+| spacer                |
+| TapeLibrary           |
+| UPS                   |
+| VM                    |
+| VM Cluster            |
+| VM Resource Pool      |
+| VM Virtual Switch     |
+| Voice/video           |
+| Wireless              |
++-----------------------+

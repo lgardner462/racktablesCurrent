@@ -1,0 +1,2 @@
+'moc_e1_brocade_A2_r5_pa_c3' , '5' , 'a' , '03' , '41' , '41' , 'Brocade VDX6740' , '{ppool: "engaging1_moc"},{pgroup: "MOC BU"}' , 'NetworkSwitch'
+'r5-pa-c3-fex--1' , '5' , 'a' , '03' , '40' , '40' , 'Cisco Fex' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'NetworkSwitch'

@@ -1,0 +1,42 @@
++----------+-----------------------+
+| dict_key | dict_value            |
++----------+-----------------------+
+|        1 | BlackBox              |
+|       10 | CableOrganizer        |
+|       15 | console               |
+|        5 | DiskArray             |
+|     1055 | FC switch             |
+|      445 | KVM switch            |
+|     1562 | Location              |
+|     1787 | Management interface  |
+|       14 | MediaConverter        |
+|       13 | Modem                 |
+|      447 | multiplexer           |
+|     1503 | Network chassis       |
+|      798 | Network security      |
+|        8 | Network switch        |
+|        9 | PatchPanel            |
+|        2 | PDU                   |
+|     1398 | Power supply          |
+|     1397 | Power supply chassis  |
+|     1560 | Rack                  |
+|        7 | Router                |
+|     1561 | Row                   |
+|     1644 | serial console server |
+|        4 | Server                |
+|     1502 | Server chassis        |
+|        3 | Shelf                 |
+|       11 | spacer                |
+|        6 | TapeLibrary           |
+|       12 | UPS                   |
+|     1504 | VM                    |
+|     1505 | VM Cluster            |
+|     1506 | VM Resource Pool      |
+|     1507 | VM Virtual Switch     |
+|     1323 | Voice/video           |
+|      965 | Wireless              |
++----------+-----------------------+
+
+
+
+use this with plugins if object not supported

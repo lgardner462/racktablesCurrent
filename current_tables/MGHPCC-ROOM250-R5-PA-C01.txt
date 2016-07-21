@@ -1,0 +1,4 @@
+'r5-pc-c1-optipatch-1' , '5' , 'a' , '01' , '43' , '44' , 'Optical Patch' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'PatchPanel'
+'r5-pc-c1-cupatch-1' , '5' , 'a' , '01' , '42' , '42' , 'Copper Patch' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'PatchPanel'
+'r5-pc-c1-carm-1' , '5' , 'a' , '01' , '41' , '41' , 'Cable Management Arm' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'CableOrganizer'
+'r5-pa-c1-fex--1' , '5' , 'a' , '01' , '40' , '40' , 'Cisco Fex' , '{ppool: "mit_ist"},{pgroup: "MIT IST"}' , 'NetworkSwitch'

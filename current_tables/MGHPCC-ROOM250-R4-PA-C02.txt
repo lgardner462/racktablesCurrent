@@ -1,0 +1,3 @@
+'moc_e1_brocade_C1_r4_pa_c2' , '4' , 'a' , '02' , '43' , '43' , 'Brocade VDX6740' , '{ppool: "engaging1_moc"},{pgroup: "MOC BU"}' , 'NetworkSwitch'
+'moc_e1_brocade_B1_r4_pa_c2' , '4' , 'a' , '02' , '42' , '42' , 'Brocade VDX6740' , '{ppool: "engaging1_moc"},{pgroup: "MOC BU"}' , 'NetworkSwitch'
+'moc_e1_brocade_A1_r4_pa_c2' , '4' , 'a' , '02' , '41' , '41' , 'Brocade VDX6740' , '{ppool: "engaging1_moc"},{pgroup: "MOC BU"}' , 'NetworkSwitch'

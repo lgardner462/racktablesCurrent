@@ -1,0 +1,2 @@
+'imes-public-metal' , '5' , 'b' , '16' , '05' , '05' , 'Dell R630' , '{ppool: "imes-lcp"},{pgroup: "imes rgmark@mit.edu,ftorres@mit.edu"}' , 'Server'
+'imes-public-md001' , '5' , 'b' , '16' , '01' , '04' , 'Dell MD3460' , '{ppool: "imes-lcp"},{pgroup: "imes rgmark@mit.edu,ftorres@mit.edu"}' , 'DiskArray'

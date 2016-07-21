@@ -1,0 +1,1 @@
+'moc_e1_brocade_D6_r4_pa_c4' , '4' , 'a' , '04' , '43' , '43' , 'Brocade VDX6740' , '{ppool: "engaging1_moc"},{pgroup: "MOC BU"}' , 'NetworkSwitch'

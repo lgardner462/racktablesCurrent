@@ -1,0 +1,1 @@
+'r5-pb-c04-eofedata002-md3460e-1' , '5' , 'b' , '04' , '01' , '04' , 'MD3460e' , '{ppool: "engaging1"},{pgroup: "cnh NSF"}' , 'DiskArray'

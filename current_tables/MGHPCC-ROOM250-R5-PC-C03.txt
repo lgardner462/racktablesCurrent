@@ -1,0 +1,2 @@
+'willard-cluster-switch' , '5' , 'c' , '03' , '38' , '38' , 'PSSC Cluster' , '{ppool: "willard"},{pgroup: "Adam Willard, Chemistry, awillard@mit.edu"}' , 'BlackBox'
+'willard-cluster-compute' , '5' , 'c' , '03' , '01' , '26' , 'PSSC Cluster' , '{ppool: "willard"},{pgroup: "Adam Willard, Chemistry, awillard@mit.edu"}' , 'BlackBox'

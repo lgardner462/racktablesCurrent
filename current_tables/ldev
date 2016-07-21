@@ -1,0 +1,953 @@
++----------------------+-------+-------+----------------------+----------------+-----------------+
+| R5:PA:C01 Device     |   Ulo |   Uhi | Device               | Primary Pool   | Primary Group   |
+|----------------------+-------+-------+----------------------+----------------+-----------------|
+| r5-pc-c1-optipatch-1 |    43 |    44 | Optical Patch        | mit_ist        | MIT IST         |
+| r5-pc-c1-cupatch-1   |    42 |    42 | Copper Patch         | mit_ist        | MIT IST         |
+| r5-pc-c1-carm-1      |    41 |    41 | Cable Management Arm | mit_ist        | MIT IST         |
+| r5-pa-c1-fex--1      |    40 |    40 | Cisco Fex            | mit_ist        | MIT IST         |
++----------------------+-------+-------+----------------------+----------------+-----------------+
+
++----------------------------+-------+-------+----------------------+----------------+-----------------+
+| R5:PA:C02 Device           |   Ulo |   Uhi | Device               | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+----------------------+----------------+-----------------|
+| r5-pc-c2-optipatch-1       |    43 |    44 | Optical Patch        | mit_ist        | MIT IST         |
+| r5-pc-c2-cupatch-1         |    42 |    42 | Copper Patch         | mit_ist        | MIT IST         |
+| r5-pc-c2-carm-1            |    41 |    41 | Cable Management Arm | mit_ist        | MIT IST         |
+| moc_e1_brocade_D5_r5_pa_c2 |    41 |    41 | Brocade VDX6740      | engaging1_moc  | MOC BU          |
+| r5-pa-c2-fex--1            |    40 |    40 | Cisco Fex            | mit_ist        | MIT IST         |
++----------------------------+-------+-------+----------------------+----------------+-----------------+
+
++----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C03 Device           |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_A2_r5_pa_c3 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c3-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
++----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C04 Device           |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_D4_r5_pa_c4 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c4-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
+| r4-edge-sx6025             |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| r4sw1                      |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF         |
+| node018                    |    35 |    36 | Dell R720       | engaging1      | cnh NSF         |
+| node017                    |    33 |    34 | Dell R720       | engaging1      | cnh NSF         |
+| node016                    |    31 |    32 | Dell R720       | engaging1      | cnh NSF         |
+| node015                    |    29 |    30 | Dell R720       | engaging1      | cnh NSF         |
+| node014                    |    27 |    28 | Dell R720       | engaging1      | cnh NSF         |
+| node013                    |    25 |    26 | Dell R720       | engaging1      | cnh NSF         |
+| node012                    |    23 |    24 | Dell R720       | engaging1      | cnh NSF         |
+| node011                    |    21 |    22 | Dell R720       | engaging1      | cnh NSF         |
+| node010                    |    19 |    20 | Dell R720       | engaging1      | cnh NSF         |
+| node009                    |    17 |    18 | Dell R720       | engaging1      | cnh NSF         |
+| node008                    |    15 |    16 | Dell R720       | engaging1      | cnh NSF         |
+| node007                    |    13 |    14 | Dell R720       | engaging1      | cnh NSF         |
+| node006                    |    11 |    12 | Dell R720       | engaging1      | cnh NSF         |
+| node005                    |     9 |    10 | Dell R720       | engaging1      | cnh NSF         |
+| node004                    |     7 |     8 | Dell R720       | engaging1      | cnh NSF         |
+| node003                    |     5 |     6 | Dell R720       | engaging1      | cnh NSF         |
+| node002                    |     3 |     4 | Dell R720       | engaging1      | cnh NSF         |
+| node001                    |     1 |     2 | Dell R720       | engaging1      | cnh NSF         |
++----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+| R5:PA:C05 Device           |   Ulo |   Uhi | Device                 | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+------------------------+----------------+-----------------|
+| moc_e1_brocade_A6_r5_pa_c5 |    41 |    41 | Brocade VDX6740        | engaging1_moc  | MOC BU          |
+| moc_e1_cache_r5_pa_c5      |    40 |    40 | MOC Intel Cache Server | engaging1_moc  | MOC BU          |
+| r5-edge-sx6025             |    39 |    39 | Mellanox SX6025        | engaging1      | cnh NSF         |
+| r5sw1                      |    37 |    37 | Dell PC5548            | engaging1      | cnh NSF         |
+| node036                    |    35 |    36 | Dell R720              | engaging1      | cnh NSF         |
+| node035                    |    33 |    34 | Dell R720              | engaging1      | cnh NSF         |
+| node034                    |    31 |    32 | Dell R720              | engaging1      | cnh NSF         |
+| node033                    |    29 |    30 | Dell R720              | engaging1      | cnh NSF         |
+| node032                    |    27 |    28 | Dell R720              | engaging1      | cnh NSF         |
+| node031                    |    25 |    26 | Dell R720              | engaging1      | cnh NSF         |
+| node030                    |    23 |    24 | Dell R720              | engaging1      | cnh NSF         |
+| node029                    |    21 |    22 | Dell R720              | engaging1      | cnh NSF         |
+| node028                    |    19 |    20 | Dell R720              | engaging1      | cnh NSF         |
+| node027                    |    17 |    18 | Dell R720              | engaging1      | cnh NSF         |
+| node026                    |    15 |    16 | Dell R720              | engaging1      | cnh NSF         |
+| node025                    |    13 |    14 | Dell R720              | engaging1      | cnh NSF         |
+| node024                    |    11 |    12 | Dell R720              | engaging1      | cnh NSF         |
+| node023                    |     9 |    10 | Dell R720              | engaging1      | cnh NSF         |
+| node022                    |     7 |     8 | Dell R720              | engaging1      | cnh NSF         |
+| node021                    |     5 |     6 | Dell R720              | engaging1      | cnh NSF         |
+| node020                    |     3 |     4 | Dell R720              | engaging1      | cnh NSF         |
+| node019                    |     1 |     2 | Dell R720              | engaging1      | cnh NSF         |
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+
++----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C06 Device           |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_D3_r5_pa_c6 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c6-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
+| r6-edge-sx6025             |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| r6sw1                      |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF         |
+| node054                    |    35 |    36 | Dell R720       | engaging1      | cnh NSF         |
+| node053                    |    33 |    34 | Dell R720       | engaging1      | cnh NSF         |
+| node052                    |    31 |    32 | Dell R720       | engaging1      | cnh NSF         |
+| node051                    |    29 |    30 | Dell R720       | engaging1      | cnh NSF         |
+| node050                    |    27 |    28 | Dell R720       | engaging1      | cnh NSF         |
+| node049                    |    25 |    26 | Dell R720       | engaging1      | cnh NSF         |
+| node048                    |    23 |    24 | Dell R720       | engaging1      | cnh NSF         |
+| node047                    |    21 |    22 | Dell R720       | engaging1      | cnh NSF         |
+| node046                    |    19 |    20 | Dell R720       | engaging1      | cnh NSF         |
+| node045                    |    17 |    18 | Dell R720       | engaging1      | cnh NSF         |
+| node044                    |    15 |    16 | Dell R720       | engaging1      | cnh NSF         |
+| node043                    |    13 |    14 | Dell R720       | engaging1      | cnh NSF         |
+| node042                    |    11 |    12 | Dell R720       | engaging1      | cnh NSF         |
+| node041                    |     9 |    10 | Dell R720       | engaging1      | cnh NSF         |
+| node040                    |     7 |     8 | Dell R720       | engaging1      | cnh NSF         |
+| node039                    |     5 |     6 | Dell R720       | engaging1      | cnh NSF         |
+| node038                    |     3 |     4 | Dell R720       | engaging1      | cnh NSF         |
+| node037                    |     1 |     2 | Dell R720       | engaging1      | cnh NSF         |
++----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+| R5:PA:C07 Device           |   Ulo |   Uhi | Device                 | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+------------------------+----------------+-----------------|
+| moc_e1_brocade_A3_r5_pa_c7 |    41 |    41 | Brocade VDX6740        | engaging1_moc  | MOC BU          |
+| moc_e1_cache_r5_pa_c7      |    40 |    40 | MOC Intel Cache Server | engaging1_moc  | MOC BU          |
+| r7-edge-sx6025             |    39 |    39 | Mellanox SX6025        | engaging1      | cnh NSF         |
+| r7sw1                      |    37 |    37 | Dell PC5548            | engaging1      | cnh NSF         |
+| node072                    |    35 |    36 | Dell R720              | engaging1      | cnh NSF         |
+| node071                    |    33 |    34 | Dell R720              | engaging1      | cnh NSF         |
+| node070                    |    31 |    32 | Dell R720              | engaging1      | cnh NSF         |
+| node069                    |    29 |    30 | Dell R720              | engaging1      | cnh NSF         |
+| node068                    |    27 |    28 | Dell R720              | engaging1      | cnh NSF         |
+| node067                    |    25 |    26 | Dell R720              | engaging1      | cnh NSF         |
+| node066                    |    23 |    24 | Dell R720              | engaging1      | cnh NSF         |
+| node065                    |    21 |    22 | Dell R720              | engaging1      | cnh NSF         |
+| node064                    |    19 |    20 | Dell R720              | engaging1      | cnh NSF         |
+| node063                    |    17 |    18 | Dell R720              | engaging1      | cnh NSF         |
+| node062                    |    15 |    16 | Dell R720              | engaging1      | cnh NSF         |
+| node061                    |    13 |    14 | Dell R720              | engaging1      | cnh NSF         |
+| node060                    |    11 |    12 | Dell R720              | engaging1      | cnh NSF         |
+| node059                    |     9 |    10 | Dell R720              | engaging1      | cnh NSF         |
+| node058                    |     7 |     8 | Dell R720              | engaging1      | cnh NSF         |
+| node057                    |     5 |     6 | Dell R720              | engaging1      | cnh NSF         |
+| node056                    |     3 |     4 | Dell R720              | engaging1      | cnh NSF         |
+| node055                    |     1 |     2 | Dell R720              | engaging1      | cnh NSF         |
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+| R5:PA:C08 Device           |   Ulo |   Uhi | Device                 | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+------------------------+----------------+-----------------|
+| moc_e1_brocade_D2_r5_pa_c8 |    41 |    41 | Brocade VDX6740        | engaging1_moc  | MOC BU          |
+| r5-pa-c8-fex--1            |    40 |    40 | Cisco Fex              | mit_ist        | MIT IST         |
+| moc_e1_cache_r5_pa_c8      |    40 |    40 | MOC Intel Cache Server | engaging1_moc  | MOC BU          |
+| r8-edge-sx6025             |    39 |    39 | Mellanox SX6025        | engaging1      | cnh NSF         |
+| r8sw1                      |    37 |    37 | Dell PC5548            | engaging1      | cnh NSF         |
+| node090                    |    35 |    36 | Dell R720              | engaging1      | cnh NSF         |
+| node089                    |    33 |    34 | Dell R720              | engaging1      | cnh NSF         |
+| node088                    |    31 |    32 | Dell R720              | engaging1      | cnh NSF         |
+| node087                    |    29 |    30 | Dell R720              | engaging1      | cnh NSF         |
+| node086                    |    27 |    28 | Dell R720              | engaging1      | cnh NSF         |
+| node085                    |    25 |    26 | Dell R720              | engaging1      | cnh NSF         |
+| node084                    |    23 |    24 | Dell R720              | engaging1      | cnh NSF         |
+| node083                    |    21 |    22 | Dell R720              | engaging1      | cnh NSF         |
+| node082                    |    19 |    20 | Dell R720              | engaging1      | cnh NSF         |
+| node081                    |    17 |    18 | Dell R720              | engaging1      | cnh NSF         |
+| node080                    |    15 |    16 | Dell R720              | engaging1      | cnh NSF         |
+| node079                    |    13 |    14 | Dell R720              | engaging1      | cnh NSF         |
+| node078                    |    11 |    12 | Dell R720              | engaging1      | cnh NSF         |
+| node077                    |     9 |    10 | Dell R720              | engaging1      | cnh NSF         |
+| node076                    |     7 |     8 | Dell R720              | engaging1      | cnh NSF         |
+| node075                    |     5 |     6 | Dell R720              | engaging1      | cnh NSF         |
+| node074                    |     3 |     4 | Dell R720              | engaging1      | cnh NSF         |
+| node073                    |     1 |     2 | Dell R720              | engaging1      | cnh NSF         |
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+| R5:PA:C09 Device           |   Ulo |   Uhi | Device                 | Primary Pool   | Primary Group   |
+|----------------------------+-------+-------+------------------------+----------------+-----------------|
+| moc_e1_brocade_A5_r5_pa_c9 |    41 |    41 | Brocade VDX6740        | engaging1_moc  | MOC BU          |
+| r5-pa-c9-fex--1            |    40 |    40 | Cisco Fex              | mit_ist        | MIT IST         |
+| moc_e1_cache_r5_pa_c9      |    40 |    40 | MOC Intel Cache Server | engaging1_moc  | MOC BU          |
+| r9-edge-sx6025             |    39 |    39 | Mellanox SX6025        | engaging1      | cnh NSF         |
+| r9sw1                      |    37 |    37 | Dell PC5548            | engaging1      | cnh NSF         |
+| node108                    |    35 |    36 | Dell R720              | engaging1      | cnh NSF         |
+| node107                    |    33 |    34 | Dell R720              | engaging1      | cnh NSF         |
+| node106                    |    31 |    32 | Dell R720              | engaging1      | cnh NSF         |
+| node105                    |    29 |    30 | Dell R720              | engaging1      | cnh NSF         |
+| node104                    |    27 |    28 | Dell R720              | engaging1      | cnh NSF         |
+| node103                    |    25 |    26 | Dell R720              | engaging1      | cnh NSF         |
+| node102                    |    23 |    24 | Dell R720              | engaging1      | cnh NSF         |
+| node101                    |    21 |    22 | Dell R720              | engaging1      | cnh NSF         |
+| node100                    |    19 |    20 | Dell R720              | engaging1      | cnh NSF         |
+| node099                    |    17 |    18 | Dell R720              | engaging1      | cnh NSF         |
+| node098                    |    15 |    16 | Dell R720              | engaging1      | cnh NSF         |
+| node097                    |    13 |    14 | Dell R720              | engaging1      | cnh NSF         |
+| node096                    |    11 |    12 | Dell R720              | engaging1      | cnh NSF         |
+| node095                    |     9 |    10 | Dell R720              | engaging1      | cnh NSF         |
+| node094                    |     7 |     8 | Dell R720              | engaging1      | cnh NSF         |
+| node093                    |     5 |     6 | Dell R720              | engaging1      | cnh NSF         |
+| node092                    |     3 |     4 | Dell R720              | engaging1      | cnh NSF         |
+| node091                    |     1 |     2 | Dell R720              | engaging1      | cnh NSF         |
++----------------------------+-------+-------+------------------------+----------------+-----------------+
+
++-----------------------------+-------+-------+------------------------+----------------+-----------------+
+| R5:PA:C10 Device            |   Ulo |   Uhi | Device                 | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+------------------------+----------------+-----------------|
+| moc_e1_brocade_D1_r5_pa_c10 |    41 |    41 | Brocade VDX6740        | engaging1_moc  | MOC BU          |
+| r5-pa-c10-fex--1            |    40 |    40 | Cisco Fex              | mit_ist        | MIT IST         |
+| moc_e1_cache_r5_pa_c10      |    40 |    40 | MOC Intel Cache Server | engaging1_moc  | MOC BU          |
+| r10-edge-sx6025             |    39 |    39 | Mellanox SX6025        | engaging1      | cnh NSF         |
+| r10sw1                      |    37 |    37 | Dell PC5548            | engaging1      | cnh NSF         |
+| node126                     |    35 |    36 | Dell R720              | engaging1      | cnh NSF         |
+| node125                     |    33 |    34 | Dell R720              | engaging1      | cnh NSF         |
+| node124                     |    31 |    32 | Dell R720              | engaging1      | cnh NSF         |
+| node123                     |    29 |    30 | Dell R720              | engaging1      | cnh NSF         |
+| node122                     |    27 |    28 | Dell R720              | engaging1      | cnh NSF         |
+| node121                     |    25 |    26 | Dell R720              | engaging1      | cnh NSF         |
+| node120                     |    23 |    24 | Dell R720              | engaging1      | cnh NSF         |
+| node119                     |    21 |    22 | Dell R720              | engaging1      | cnh NSF         |
+| node118                     |    19 |    20 | Dell R720              | engaging1      | cnh NSF         |
+| node117                     |    17 |    18 | Dell R720              | engaging1      | cnh NSF         |
+| node116                     |    15 |    16 | Dell R720              | engaging1      | cnh NSF         |
+| node115                     |    13 |    14 | Dell R720              | engaging1      | cnh NSF         |
+| node114                     |    11 |    12 | Dell R720              | engaging1      | cnh NSF         |
+| node113                     |     9 |    10 | Dell R720              | engaging1      | cnh NSF         |
+| node112                     |     7 |     8 | Dell R720              | engaging1      | cnh NSF         |
+| node111                     |     5 |     6 | Dell R720              | engaging1      | cnh NSF         |
+| node110                     |     3 |     4 | Dell R720              | engaging1      | cnh NSF         |
+| node109                     |     1 |     2 | Dell R720              | engaging1      | cnh NSF         |
++-----------------------------+-------+-------+------------------------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C11 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_A4_r5_pa_c11 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r11sw2                      |    26 |    26 | Dell PC8132F    | engaging1      | cnh NSF         |
+| r11sw1                      |    23 |    23 | Dell PC5524     | engaging1      | cnh NSF         |
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C12 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| sx6036-2           |    26 |    26 | Mellanox SX6036 | engaging1      | cnh NSF         |
+| sx6036-1           |    24 |    24 | Mellanox SX6036 | engaging1      | cnh NSF         |
+| sx6025-core-7      |    22 |    22 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| sx6025-core-6      |    20 |    20 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| sx6025-core-5      |    18 |    18 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| sx6025-core-4      |    16 |    16 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| sx6025-core-3      |    14 |    14 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| sx6025-core-2      |    12 |    12 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| sx6025-core-1      |    10 |    10 | Mellanox SX6025 | engaging1      | cnh NSF         |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++-----------------------------+-------+-------+------------------------+----------------+-----------------+
+| R5:PA:C13 Device            |   Ulo |   Uhi | Device                 | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+------------------------+----------------+-----------------|
+| moc_e1_brocade_C2_r5_pa_c13 |    41 |    41 | Brocade VDX6740        | engaging1_moc  | MOC BU          |
+| r5-pa-c13-fex--1            |    40 |    40 | Cisco Fex              | mit_ist        | MIT IST         |
+| moc_e1_cache_r5_pa_c13      |    40 |    40 | MOC Intel Cache Server | engaging1_moc  | MOC BU          |
+| r13-edge-sx6025             |    39 |    39 | Mellanox SX6025        | engaging1      | cnh NSF         |
+| r13sw1                      |    37 |    37 | Dell PC5548            | engaging1      | cnh NSF         |
+| node144                     |    35 |    36 | Dell R720              | engaging1      | cnh NSF         |
+| node143                     |    33 |    34 | Dell R720              | engaging1      | cnh NSF         |
+| node142                     |    31 |    32 | Dell R720              | engaging1      | cnh NSF         |
+| node141                     |    29 |    30 | Dell R720              | engaging1      | cnh NSF         |
+| node140                     |    27 |    28 | Dell R720              | engaging1      | cnh NSF         |
+| node139                     |    25 |    26 | Dell R720              | engaging1      | cnh NSF         |
+| node138                     |    23 |    24 | Dell R720              | engaging1      | cnh NSF         |
+| node137                     |    21 |    22 | Dell R720              | engaging1      | cnh NSF         |
+| node136                     |    19 |    20 | Dell R720              | engaging1      | cnh NSF         |
+| node135                     |    17 |    18 | Dell R720              | engaging1      | cnh NSF         |
+| node134                     |    15 |    16 | Dell R720              | engaging1      | cnh NSF         |
+| node133                     |    13 |    14 | Dell R720              | engaging1      | cnh NSF         |
+| node132                     |    11 |    12 | Dell R720              | engaging1      | cnh NSF         |
+| node131                     |     9 |    10 | Dell R720              | engaging1      | cnh NSF         |
+| node130                     |     7 |     8 | Dell R720              | engaging1      | cnh NSF         |
+| node129                     |     5 |     6 | Dell R720              | engaging1      | cnh NSF         |
+| node128                     |     3 |     4 | Dell R720              | engaging1      | cnh NSF         |
+| node127                     |     1 |     2 | Dell R720              | engaging1      | cnh NSF         |
++-----------------------------+-------+-------+------------------------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C14 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_C5_r5_pa_c14 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c14-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
+| r14-edge-sx6025             |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| r14sw1                      |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF         |
+| node162                     |    35 |    36 | Dell R720       | engaging1      | cnh NSF         |
+| node161                     |    33 |    34 | Dell R720       | engaging1      | cnh NSF         |
+| node160                     |    31 |    32 | Dell R720       | engaging1      | cnh NSF         |
+| node159                     |    29 |    30 | Dell R720       | engaging1      | cnh NSF         |
+| node158                     |    27 |    28 | Dell R720       | engaging1      | cnh NSF         |
+| node157                     |    25 |    26 | Dell R720       | engaging1      | cnh NSF         |
+| node156                     |    23 |    24 | Dell R720       | engaging1      | cnh NSF         |
+| node155                     |    21 |    22 | Dell R720       | engaging1      | cnh NSF         |
+| node154                     |    19 |    20 | Dell R720       | engaging1      | cnh NSF         |
+| node153                     |    17 |    18 | Dell R720       | engaging1      | cnh NSF         |
+| node152                     |    15 |    16 | Dell R720       | engaging1      | cnh NSF         |
+| node151                     |    13 |    14 | Dell R720       | engaging1      | cnh NSF         |
+| node150                     |    11 |    12 | Dell R720       | engaging1      | cnh NSF         |
+| node149                     |     9 |    10 | Dell R720       | engaging1      | cnh NSF         |
+| node148                     |     7 |     8 | Dell R720       | engaging1      | cnh NSF         |
+| node147                     |     5 |     6 | Dell R720       | engaging1      | cnh NSF         |
+| node146                     |     3 |     4 | Dell R720       | engaging1      | cnh NSF         |
+| node145                     |     1 |     2 | Dell R720       | engaging1      | cnh NSF         |
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C15 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_C3_r5_pa_c15 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c15-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
+| r15-edge-sx6025             |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| r15sw1                      |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF         |
+| node180                     |    35 |    36 | Dell R720       | engaging1      | cnh NSF         |
+| node179                     |    33 |    34 | Dell R720       | engaging1      | cnh NSF         |
+| node178                     |    31 |    32 | Dell R720       | engaging1      | cnh NSF         |
+| node177                     |    29 |    30 | Dell R720       | engaging1      | cnh NSF         |
+| node176                     |    27 |    28 | Dell R720       | engaging1      | cnh NSF         |
+| node175                     |    25 |    26 | Dell R720       | engaging1      | cnh NSF         |
+| node174                     |    23 |    24 | Dell R720       | engaging1      | cnh NSF         |
+| node173                     |    21 |    22 | Dell R720       | engaging1      | cnh NSF         |
+| node172                     |    19 |    20 | Dell R720       | engaging1      | cnh NSF         |
+| node171                     |    17 |    18 | Dell R720       | engaging1      | cnh NSF         |
+| node170                     |    15 |    16 | Dell R720       | engaging1      | cnh NSF         |
+| node169                     |    13 |    14 | Dell R720       | engaging1      | cnh NSF         |
+| node168                     |    11 |    12 | Dell R720       | engaging1      | cnh NSF         |
+| node167                     |     9 |    10 | Dell R720       | engaging1      | cnh NSF         |
+| node166                     |     7 |     8 | Dell R720       | engaging1      | cnh NSF         |
+| node165                     |     5 |     6 | Dell R720       | engaging1      | cnh NSF         |
+| node164                     |     3 |     4 | Dell R720       | engaging1      | cnh NSF         |
+| node163                     |     1 |     2 | Dell R720       | engaging1      | cnh NSF         |
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C16 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_C4_r5_pa_c16 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c16-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
+| r16-edge-sx6025             |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF         |
+| r16sw1                      |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF         |
+| node198                     |    35 |    36 | Dell R720       | engaging1      | cnh NSF         |
+| node197                     |    33 |    34 | Dell R720       | engaging1      | cnh NSF         |
+| node196                     |    31 |    32 | Dell R720       | engaging1      | cnh NSF         |
+| node195                     |    29 |    30 | Dell R720       | engaging1      | cnh NSF         |
+| node194                     |    27 |    28 | Dell R720       | engaging1      | cnh NSF         |
+| node193                     |    25 |    26 | Dell R720       | engaging1      | cnh NSF         |
+| node192                     |    23 |    24 | Dell R720       | engaging1      | cnh NSF         |
+| node191                     |    21 |    22 | Dell R720       | engaging1      | cnh NSF         |
+| node190                     |    19 |    20 | Dell R720       | engaging1      | cnh NSF         |
+| node189                     |    17 |    18 | Dell R720       | engaging1      | cnh NSF         |
+| node188                     |    15 |    16 | Dell R720       | engaging1      | cnh NSF         |
+| node187                     |    13 |    14 | Dell R720       | engaging1      | cnh NSF         |
+| node186                     |    11 |    12 | Dell R720       | engaging1      | cnh NSF         |
+| node185                     |     9 |    10 | Dell R720       | engaging1      | cnh NSF         |
+| node184                     |     7 |     8 | Dell R720       | engaging1      | cnh NSF         |
+| node183                     |     5 |     6 | Dell R720       | engaging1      | cnh NSF         |
+| node182                     |     3 |     4 | Dell R720       | engaging1      | cnh NSF         |
+| node181                     |     1 |     2 | Dell R720       | engaging1      | cnh NSF         |
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+------------------+
+| R5:PA:C17 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group    |
+|-----------------------------+-------+-------+-----------------+----------------+------------------|
+| moc_e1_brocade_B2_r5_pa_c17 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU           |
+| r5-pa-c17-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST          |
+| r17-edge-sx6025             |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF          |
+| r17sw1                      |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF          |
+| node216                     |    35 |    36 | Dell R720       | engaging1      | follows (darwin) |
+| node215                     |    33 |    34 | Dell R720       | engaging1      | follows (darwin) |
+| node214                     |    31 |    32 | Dell R720       | engaging1      | follows (darwin) |
+| node213                     |    29 |    30 | Dell R720       | engaging1      | follows (darwin) |
+| node212                     |    27 |    28 | Dell R720       | engaging1      | follows (darwin) |
+| node211                     |    25 |    26 | Dell R720       | engaging1      | follows (darwin) |
+| node210                     |    23 |    24 | Dell R720       | engaging1      | follows (darwin) |
+| node209                     |    21 |    22 | Dell R720       | engaging1      | follows (darwin) |
+| node208                     |    19 |    20 | Dell R720       | engaging1      | follows (darwin) |
+| node207                     |    17 |    18 | Dell R720       | engaging1      | follows (darwin) |
+| node206                     |    15 |    16 | Dell R720       | engaging1      | follows (darwin) |
+| node205                     |    13 |    14 | Dell R720       | engaging1      | follows (darwin) |
+| node204                     |    11 |    12 | Dell R720       | engaging1      | follows (darwin) |
+| node203                     |     9 |    10 | Dell R720       | engaging1      | follows (darwin) |
+| node202                     |     7 |     8 | Dell R720       | engaging1      | follows (darwin) |
+| node201                     |     5 |     6 | Dell R720       | engaging1      | follows (darwin) |
+| node200                     |     3 |     4 | Dell R720       | engaging1      | follows (darwin) |
+| node199                     |     1 |     2 | Dell R720       | engaging1      | follows (darwin) |
++-----------------------------+-------+-------+-----------------+----------------+------------------+
+
++--------------------+-------+-------+-----------------+----------------+------------------+
+| R5:PA:C18 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group    |
+|--------------------+-------+-------+-----------------+----------------+------------------|
+| r5-pa-c18-fex--1   |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST          |
+| r18-edge-sx6025    |    39 |    39 | Mellanox SX6025 | engaging1      | cnh NSF          |
+| r18sw1             |    37 |    37 | Dell PC5548     | engaging1      | cnh NSF          |
+| node234            |    35 |    36 | Dell R720       | engaging1      | follows (darwin) |
+| node233            |    33 |    34 | Dell R720       | engaging1      | follows (darwin) |
+| node232            |    31 |    32 | Dell R720       | engaging1      | follows (darwin) |
+| node231            |    29 |    30 | Dell R720       | engaging1      | follows (darwin) |
+| node230            |    27 |    28 | Dell R720       | engaging1      | follows (darwin) |
+| node229            |    25 |    26 | Dell R720       | engaging1      | follows (darwin) |
+| node228            |    23 |    24 | Dell R720       | engaging1      | follows (darwin) |
+| node227            |    21 |    22 | Dell R720       | engaging1      | follows (darwin) |
+| node226            |    19 |    20 | Dell R720       | engaging1      | follows (darwin) |
+| node225            |    17 |    18 | Dell R720       | engaging1      | follows (darwin) |
+| node224            |    15 |    16 | Dell R720       | engaging1      | follows (darwin) |
+| node223            |    13 |    14 | Dell R720       | engaging1      | follows (darwin) |
+| node222            |    11 |    12 | Dell R720       | engaging1      | follows (darwin) |
+| node221            |     9 |    10 | Dell R720       | engaging1      | follows (darwin) |
+| node220            |     7 |     8 | Dell R720       | engaging1      | follows (darwin) |
+| node219            |     5 |     6 | Dell R720       | engaging1      | follows (darwin) |
+| node218            |     3 |     4 | Dell R720       | engaging1      | follows (darwin) |
+| node217            |     1 |     2 | Dell R720       | engaging1      | follows (darwin) |
++--------------------+-------+-------+-----------------+----------------+------------------+
+
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C19 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+-----------------+----------------+-----------------|
+| r19-edge-sx6025-2           |    41 |    41 | Mellanox SX6025 | engaging1      | cnh RC2         |
+| moc_e1_brocade_B5_r5_pa_c19 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c19-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
+| r19-edge-sx6025-1           |    39 |    39 | Mellanox SX6025 | engaging1      | cnh RC2         |
+| r19sw1                      |    37 |    37 | Dell N3048      | engaging1      | cnh RC2         |
+| node271                     |    36 |    36 | Compute Node    | engaging1      | cnh RC2         |
+| node270                     |    35 |    35 | Compute Node    | engaging1      | raffaele        |
+| node269                     |    34 |    34 | Compute Node    | engaging1      | raffaele        |
+| node268                     |    33 |    33 | Compute Node    | engaging1      | raffaele        |
+| node267                     |    32 |    32 | Compute Node    | engaging1      | raffaele        |
+| node266                     |    31 |    31 | Compute Node    | engaging1      | cnh RC2         |
+| node265                     |    30 |    30 | Compute Node    | engaging1      | cnh RC2         |
+| node264                     |    29 |    29 | Compute Node    | engaging1      | raffaele        |
+| node263                     |    28 |    28 | Compute Node    | engaging1      | raffaele        |
+| node262                     |    27 |    27 | Compute Node    | engaging1      | cnh RC2         |
+| node261                     |    26 |    26 | Compute Node    | engaging1      | raffaele        |
+| node260                     |    25 |    25 | Compute Node    | engaging1      | raffaele        |
+| node259                     |    24 |    24 | Compute Node    | engaging1      | raffaele        |
+| node258                     |    23 |    23 | Compute Node    | engaging1      | raffaele        |
+| node257                     |    22 |    22 | Compute Node    | engaging1      | cnh RC2         |
+| node256                     |    21 |    21 | Compute Node    | engaging1      | cnh RC2         |
+| node255                     |    20 |    20 | Compute Node    | engaging1      | cnh RC2         |
+| node254                     |    19 |    19 | Compute Node    | engaging1      | cnh RC2         |
+| node253                     |    18 |    18 | Compute Node    | engaging1      | g4nier          |
+| node252                     |    17 |    17 | Compute Node    | engaging1      | g4nier          |
+| node251                     |    16 |    16 | Compute Node    | engaging1      | g4nier          |
+| node250                     |    15 |    15 | Compute Node    | engaging1      | g4nier          |
+| node249                     |    14 |    14 | Compute Node    | engaging1      | g4nier          |
+| node248                     |    13 |    13 | Compute Node    | engaging1      | g4nier          |
+| node247                     |    12 |    12 | Compute Node    | engaging1      | g4nier          |
+| node246                     |    11 |    11 | Compute Node    | engaging1      | g4nier          |
+| node245                     |    10 |    10 | Compute Node    | engaging1      | g4nier          |
+| node244                     |     9 |     9 | Compute Node    | engaging1      | g4nier          |
+| node243                     |     8 |     8 | Compute Node    | engaging1      | g4nier          |
+| node242                     |     7 |     7 | Compute Node    | engaging1      | g4nier          |
+| node241                     |     6 |     6 | Compute Node    | engaging1      | g4nier          |
+| node240                     |     5 |     5 | Compute Node    | engaging1      | g4nier          |
+| node239                     |     4 |     4 | Compute Node    | engaging1      | g4nier          |
+| node238                     |     3 |     3 | Compute Node    | engaging1      | g4nier          |
+| node237                     |     2 |     2 | Compute Node    | engaging1      | g4nier          |
+| node236                     |     1 |     1 | Compute Node    | engaging1      | g4nier          |
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------+----------------+-----------------+
+| R5:PA:C20 Device   |   Ulo |   Uhi | Device    | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------+----------------+-----------------|
+| r5-pa-c20-fex--1   |    40 |    40 | Cisco Fex | mit_ist        | MIT IST         |
++--------------------+-------+-------+-----------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+--------------------+
+| R5:PA:C21 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group      |
+|-----------------------------+-------+-------+-----------------+----------------+--------------------|
+| r21-edge-sx6025-2           |    41 |    41 | Mellanox SX6025 | engaging1      | cnh RC2            |
+| moc_e1_brocade_B3_r5_pa_c21 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU             |
+| r5-pa-c21-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST            |
+| r21-edge-sx6025-1           |    39 |    39 | Mellanox SX6025 | engaging1      | cnh RC2            |
+| node308                     |    37 |    37 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| r21sw1                      |    37 |    37 | Dell N3048      | engaging1      | cnh RC2            |
+| node307                     |    36 |    36 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node306                     |    35 |    35 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node305                     |    34 |    34 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node304                     |    33 |    33 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node303                     |    32 |    32 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node302                     |    31 |    31 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node301                     |    30 |    30 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node300                     |    29 |    29 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node299                     |    28 |    28 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node298                     |    27 |    27 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node297                     |    26 |    26 | Compute Node    | engaging1      | ERL Hager + Fehler |
+| node296                     |    25 |    25 | Compute Node    | engaging1      | chisholm           |
+| node295                     |    24 |    24 | Compute Node    | engaging1      | chisholm           |
+| node294                     |    23 |    23 | Compute Node    | engaging1      | chisholm           |
+| node293                     |    22 |    22 | Compute Node    | engaging1      | chisholm           |
+| node292                     |    21 |    21 | Compute Node    | engaging1      | chisholm           |
+| node291                     |    20 |    20 | Compute Node    | engaging1      | chisholm           |
+| node290                     |    19 |    19 | Compute Node    | engaging1      | chisholm           |
+| node289                     |    18 |    18 | Compute Node    | engaging1      | cnh RC2            |
+| node288                     |    17 |    17 | Compute Node    | engaging1      | cnh RC2            |
+| node287                     |    16 |    16 | Compute Node    | engaging1      | cnh RC2            |
+| node286                     |    15 |    15 | Compute Node    | engaging1      | cnh RC2            |
+| node285                     |    14 |    14 | Compute Node    | engaging1      | cnh RC2            |
+| node284                     |    13 |    13 | Compute Node    | engaging1      | cnh RC2            |
+| node283                     |    12 |    12 | Compute Node    | engaging1      | cnh RC2            |
+| node282                     |    11 |    11 | Compute Node    | engaging1      | cnh RC2            |
+| node281                     |    10 |    10 | Compute Node    | engaging1      | cnh RC2            |
+| node280                     |     9 |     9 | Compute Node    | engaging1      | cnh RC2            |
+| node279                     |     8 |     8 | Compute Node    | engaging1      | cnh RC2            |
+| node278                     |     7 |     7 | Compute Node    | engaging1      | cnh RC2            |
+| node277                     |     6 |     6 | Compute Node    | engaging1      | cnh RC2            |
+| node276                     |     5 |     5 | Compute Node    | engaging1      | cnh RC2            |
+| node275                     |     4 |     4 | Compute Node    | engaging1      | cnh RC2            |
+| node274                     |     3 |     3 | Compute Node    | engaging1      | cnh RC2            |
+| node273                     |     2 |     2 | Compute Node    | engaging1      | cnh RC2            |
+| node272                     |     1 |     1 | Compute Node    | engaging1      | cnh RC2            |
++-----------------------------+-------+-------+-----------------+----------------+--------------------+
+
++--------------------+-------+-------+-----------+----------------+-----------------+
+| R5:PA:C22 Device   |   Ulo |   Uhi | Device    | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------+----------------+-----------------|
+| r5-pa-c22-fex--1   |    40 |    40 | Cisco Fex | mit_ist        | MIT IST         |
++--------------------+-------+-------+-----------+----------------+-----------------+
+
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PA:C23 Device            |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|-----------------------------+-------+-------+-----------------+----------------+-----------------|
+| moc_e1_brocade_B4_r5_pa_c23 |    41 |    41 | Brocade VDX6740 | engaging1_moc  | MOC BU          |
+| r5-pa-c23-fex--1            |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST         |
++-----------------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------+----------------+-----------------+
+| R5:PA:C24 Device   |   Ulo |   Uhi | Device    | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------+----------------+-----------------|
+| r5-pa-c24-fex--1   |    40 |    40 | Cisco Fex | mit_ist        | MIT IST         |
++--------------------+-------+-------+-----------+----------------+-----------------+
+
++---------------------------------+-------+-------+----------+----------------+-----------------+
+| R5:PB:C04 Device                |   Ulo |   Uhi | Device   | Primary Pool   | Primary Group   |
+|---------------------------------+-------+-------+----------+----------------+-----------------|
+| r5-pb-c04-eofedata002-md3460e-1 |     1 |     4 | MD3460e  | engaging1      | cnh NSF         |
++---------------------------------+-------+-------+----------+----------------+-----------------+
+
++--------------------+-------+-------+-------------+----------------+-------------------------------------+
+| R5:PB:C14 Device   |   Ulo |   Uhi | Device      | Primary Pool   | Primary Group                       |
+|--------------------+-------+-------+-------------+----------------+-------------------------------------|
+| imes-firewall      |     6 |     6 | Dell R430   | mit PII data   | cnh RC1                             |
+| imes-private-metal |     5 |     5 | Dell R630   | imes-lcp       | imes rgmark@mit.edu,ftorres@mit.edu |
+| imes-private-md001 |     1 |     4 | Dell MD3460 | imes-lcp       | imes rgmark@mit.edu,ftorres@mit.edu |
++--------------------+-------+-------+-------------+----------------+-------------------------------------+
+
++--------------------+-------+-------+-------------+----------------+-------------------------------------+
+| R5:PB:C16 Device   |   Ulo |   Uhi | Device      | Primary Pool   | Primary Group                       |
+|--------------------+-------+-------+-------------+----------------+-------------------------------------|
+| imes-public-metal  |     5 |     5 | Dell R630   | imes-lcp       | imes rgmark@mit.edu,ftorres@mit.edu |
+| imes-public-md001  |     1 |     4 | Dell MD3460 | imes-lcp       | imes rgmark@mit.edu,ftorres@mit.edu |
++--------------------+-------+-------+-------------+----------------+-------------------------------------+
+
++----------------------+-------+-------+-------------------------+----------------+----------------------------------------------+
+| R5:PC:C09 Device     |   Ulo |   Uhi | Device                  | Primary Pool   | Primary Group                                |
+|----------------------+-------+-------+-------------------------+----------------+----------------------------------------------|
+| r5-pc-c09-mlnx-1     |    38 |    38 | Mellanox SX6036         | engaging1      | cnh RC2                                      |
+| r5-pc-c09-sw1        |    37 |    37 | Dell N3048              | engaging1      | cnh RC2                                      |
+| node312              |    35 |    36 | Dell R730               | engaging1      | rgmark (Mohammad Ghassemi, ghassemi@mit.edu) |
+| node311              |    33 |    34 | Dell R730               | engaging1      | rgmark (Mohammad Ghassemi, ghassemi@mit.edu) |
+| node310              |    31 |    32 | Dell R730               | engaging1      | rgmark (Mohammad Ghassemi, ghassemi@mit.edu) |
+| node309              |    29 |    30 | Dell R730               | engaging1      | rgmark (Mohammad Ghassemi, ghassemi@mit.edu) |
+| node235              |    28 |    28 | Dell C4140              | engaging1      | cnh Dell loan/donation                       |
+| r5-pc-c09-omnipath-1 |    27 |    27 | Intel Omnipath Edge 100 | engaging1      | cnh RC2                                      |
+| node338              |    26 |    26 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node337              |    25 |    25 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node336              |    24 |    24 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node335              |    23 |    23 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node334              |    22 |    22 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node333              |    21 |    21 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node332              |    20 |    20 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node331              |    19 |    19 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node330              |    18 |    18 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node329              |    17 |    17 | Lenovo x3550            | engaging1      | cnh RC2                                      |
+| node328              |    16 |    16 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node327              |    15 |    15 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node326              |    14 |    14 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node325              |    13 |    13 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node324              |    12 |    12 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node323              |    11 |    11 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node322              |    10 |    10 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node321              |     9 |     9 | Dell R630               | engaging1      | langer (Jiaqi Lin, jqlin@mit.edu)            |
+| node320              |     8 |     8 | Dell R430               | engaging1      | cnh RC2                                      |
+| node319              |     7 |     7 | Dell R430               | engaging1      | cnh RC2                                      |
+| node318              |     6 |     6 | Dell R430               | engaging1      | cnh RC2                                      |
+| node317              |     5 |     5 | Dell R430               | engaging1      | cnh RC2                                      |
+| node316              |     4 |     4 | Dell R430               | engaging1      | cnh RC2                                      |
+| node315              |     3 |     3 | Dell R430               | engaging1      | cnh RC2                                      |
+| node314              |     2 |     2 | Dell R430               | engaging1      | cnh RC2                                      |
+| node313              |     1 |     1 | Dell R430               | engaging1      | cnh RC2                                      |
++----------------------+-------+-------+-------------------------+----------------+----------------------------------------------+
+
++--------------------+-------+-------+-----------------+----------------+--------------------------------------------+
+| R5:PC:C13 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group                              |
+|--------------------+-------+-------+-----------------+----------------+--------------------------------------------|
+| r5-pc-c13-fex-1    |    40 |    40 | Cisco Fex       | mit_ist        | MIT IST                                    |
+| r5-pc-c13-mlnx-2   |    39 |    39 | Mellanox SX6018 | engaging1      | cnh RC2                                    |
+| r5-pc-c13-mlnx-1   |    38 |    38 | Mellanox SX6036 | engaging1      | cnh RC2                                    |
+| r5-pc-c13-sw1      |    37 |    37 | Dell N3048      | engaging1      | cnh RC2                                    |
+| node359            |    35 |    35 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node358            |    34 |    34 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node357            |    33 |    33 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node356            |    32 |    32 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node355            |    31 |    31 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node354            |    30 |    30 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node353            |    29 |    29 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node352            |    28 |    28 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node351            |    27 |    27 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node350            |    26 |    26 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node349            |    25 |    25 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node348            |    24 |    24 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node347            |    23 |    23 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node346            |    22 |    22 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node345            |    21 |    21 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node344            |    20 |    20 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node343            |    19 |    19 | Lenovo x3550    | engaging1      | rutledge (Vaibhaw Kumar, vaibhawk@mit.edu) |
+| node342            |    13 |    16 | Lenovo x3850    | engaging1      | cnh RC2                                    |
+| node341            |     9 |    12 | Lenovo x3850    | engaging1      | cnh RC2                                    |
+| node340            |     5 |     8 | Lenovo x3850    | engaging1      | cnh RC2                                    |
+| node339            |     1 |     4 | Lenovo x3850    | engaging1      | cnh RC2                                    |
++--------------------+-------+-------+-----------------+----------------+--------------------------------------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PC:C14 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| r5-pc-c14-mlnx-2   |    40 |    40 | Mellanox SX6036 | engaging1      | cnh RC2         |
+| r5-pc-c14-mlnx-1   |    39 |    39 | Mellanox SX6036 | engaging1      | cnh RC2         |
+| r5-pc-c14-sw2      |    38 |    38 | Dell N3048      | engaging1      | cnh RC2         |
+| r5-pc-c14-sw1      |    37 |    37 | Dell N3048      | engaging1      | cnh RC2         |
+| node395            |    36 |    36 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node394            |    35 |    35 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node393            |    34 |    34 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node392            |    33 |    33 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node391            |    32 |    32 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node390            |    31 |    31 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node389            |    30 |    30 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node388            |    29 |    29 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node387            |    28 |    28 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node386            |    27 |    27 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node385            |    26 |    26 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node384            |    25 |    25 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node383            |    24 |    24 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node382            |    23 |    23 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node381            |    22 |    22 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node380            |    21 |    21 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node379            |    20 |    20 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node378            |    19 |    19 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node377            |    18 |    18 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node376            |    17 |    17 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node375            |    16 |    16 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node374            |    15 |    15 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node373            |    14 |    14 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node372            |    13 |    13 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node371            |    12 |    12 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node370            |    11 |    11 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node369            |    10 |    10 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node368            |     9 |     9 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node367            |     8 |     8 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node366            |     7 |     7 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node365            |     6 |     6 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node364            |     5 |     5 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node363            |     4 |     4 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node362            |     3 |     3 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node361            |     2 |     2 | Lenovo x3550    | engaging1      | cnh NSF         |
+| node360            |     1 |     1 | Lenovo x3550    | engaging1      | cnh NSF         |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+--------------+----------------+-------------------------------------------------------+
+| R5:PC:C15 Device   |   Ulo |   Uhi | Device       | Primary Pool   | Primary Group                                         |
+|--------------------+-------+-------+--------------+----------------+-------------------------------------------------------|
+| node441            |    14 |    14 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node440            |    13 |    13 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node439            |    12 |    12 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node438            |    11 |    11 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node437            |    10 |    10 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node436            |     9 |     9 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node435            |     8 |     8 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node434            |     7 |     7 | Lenovo x3550 | engaging1      | Sloan (Wesley Harrell, wharrell@mit.edu)              |
+| node433            |     6 |     6 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
+| node432            |     5 |     5 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
+| node431            |     4 |     4 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
+| node430            |     3 |     3 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
+| node429            |     2 |     2 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
+| node428            |     1 |     1 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
++--------------------+-------+-------+--------------+----------------+-------------------------------------------------------+
+
++--------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------+
+| R5:PC:C16 Device   |   Ulo |   Uhi | Device                                                           | Primary Pool   | Primary Group                           |
+|--------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------|
+| node427            |    36 |    36 | HP ProLiant DL60 Gen9/ProLiant DL60 Gen9                         | engaging1      | cnh RC2                                 |
+| node426            |    35 |    35 | HP ProLiant DL60 Gen9/ProLiant DL60 Gen9                         | engaging1      | cnh RC2                                 |
+| node425            |    34 |    34 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9                       | engaging1      | cnh RC2                                 |
+| node424            |    33 |    33 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9                       | engaging1      | cnh RC2                                 |
+| node423            |    31 |    32 | HP ProLiant DL380 Gen9/ProLiant DL380 Gen9 with dual K80 @256GiB | engaging1      | gprieto (William Frank, wfrank@mit.edu) |
+| node422            |    30 |    30 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
+| node421            |    29 |    29 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
+| node420            |    28 |    28 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
+| node419            |    27 |    27 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node418            |    26 |    26 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node417            |    25 |    25 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node416            |    24 |    24 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node415            |    23 |    23 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node414            |    22 |    22 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node413            |    18 |    18 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node412            |    17 |    17 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node411            |    16 |    16 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node410            |    15 |    15 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node409            |    14 |    14 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node408            |    13 |    13 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node407            |    12 |    12 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node406            |    11 |    11 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node405            |    10 |    10 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node404            |     9 |     9 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node403            |     8 |     8 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node402            |     7 |     7 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node401            |     6 |     6 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node400            |     5 |     5 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node399            |     4 |     4 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node398            |     3 |     3 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node397            |     2 |     2 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node396            |     1 |     1 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
++--------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------+
+
++--------------------+-------+-------+------------------+----------------+-----------------+
+| R2:PC:C11 Device   |   Ulo |   Uhi | Device           | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+------------------+----------------+-----------------|
+| c11-core-sx6036-1  |    17 |    17 | Mellanox SX6036F | c3ddb          | cnh MLSC-I      |
+| c11-core-sx6036-2  |    16 |    16 | Mellanox SX6036F | c3ddb          | cnh MLSC-I      |
+| ten-g-switch       |    13 |    13 | Dell N4032F      | c3ddb          | cnh MLSC-I      |
+| c11-switch-1g-1    |    12 |    12 | Dell PC5548      | c3ddb          | cnh MLSC-I      |
+| switch-C11         |    11 |    11 | Dell PC5524      | c3ddb          | cnh MLSC-I      |
+| c3ddb01            |     9 |    10 | Dell R715        | c3ddb          | cnh MLSC-I      |
+| c3ddb02            |     7 |     8 | Dell R715        | c3ddb          | cnh MLSC-I      |
+| c3ddb03            |     5 |     6 | Dell R715        | c3ddb          | cnh MLSC-I      |
+| c3ddb04            |     3 |     4 | Dell R715        | c3ddb          | cnh MLSC-I      |
+| c3ddb05            |     1 |     2 | Dell R715        | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+------------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------+----------------+-----------------+
+| R2:PC:C13 Device   |   Ulo |   Uhi | Device    | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------+----------------+-----------------|
+| node020            |    39 |    40 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node019            |    37 |    38 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node018            |    35 |    36 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node017            |    33 |    34 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node016            |    31 |    32 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node015            |    29 |    30 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node014            |    27 |    28 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node013            |    25 |    26 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node012            |    23 |    24 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node011            |    21 |    22 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node010            |    19 |    20 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node009            |    17 |    18 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node008            |    15 |    16 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node007            |    13 |    14 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node006            |    11 |    12 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node005            |     9 |    10 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node004            |     7 |     8 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node003            |     5 |     6 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node002            |     3 |     4 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node001            |     1 |     2 | Dell R815 | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+-----------+----------------+-----------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R2:PC:C15 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| c15-edge-sx6025    |    43 |    43 | Mellanox SX6025 | c3ddb          | cnh MLSC-I      |
+| r2-pc-c15-sw2      |    42 |    42 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| switch-C15         |    41 |    41 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| node040            |    39 |    40 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node039            |    37 |    38 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node038            |    35 |    36 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node037            |    33 |    34 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node036            |    31 |    32 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node035            |    29 |    30 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node034            |    27 |    28 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node033            |    25 |    26 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node032            |    23 |    24 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node031            |    21 |    22 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node030            |    19 |    20 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node029            |    17 |    18 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node028            |    15 |    16 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node027            |    13 |    14 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node026            |    11 |    12 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node025            |     9 |    10 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node024            |     7 |     8 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node023            |     5 |     6 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node022            |     3 |     4 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node021            |     1 |     2 | Dell R815       | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R2:PC:C17 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| c17-edge-sx6025    |    43 |    43 | Mellanox SX6025 | c3ddb          | cnh MLSC-I      |
+| r2-pc-c17-sw2      |    42 |    42 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| switch-C17         |    41 |    41 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| node060            |    39 |    40 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node059            |    37 |    38 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node058            |    35 |    36 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node057            |    33 |    34 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node056            |    31 |    32 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node055            |    29 |    30 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node054            |    27 |    28 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node053            |    25 |    26 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node052            |    23 |    24 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node051            |    21 |    22 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node050            |    19 |    20 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node049            |    17 |    18 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node048            |    15 |    16 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node047            |    13 |    14 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node046            |    11 |    12 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node045            |     9 |    10 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node044            |     7 |     8 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node043            |     5 |     6 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node042            |     3 |     4 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node041            |     1 |     2 | Dell R815       | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------+----------------+-----------------+
+| R2:PC:C19 Device   |   Ulo |   Uhi | Device    | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------+----------------+-----------------|
+| node080            |    39 |    40 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node079            |    37 |    38 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node078            |    35 |    36 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node077            |    33 |    34 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node076            |    31 |    32 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node075            |    29 |    30 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node074            |    27 |    28 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node073            |    25 |    26 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node072            |    23 |    24 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node071            |    21 |    22 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node070            |    19 |    20 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node069            |    17 |    18 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node068            |    15 |    16 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node067            |    13 |    14 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node066            |    11 |    12 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node065            |     9 |    10 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node064            |     7 |     8 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node063            |     5 |     6 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node062            |     3 |     4 | Dell R815 | c3ddb          | cnh MLSC-I      |
+| node061            |     1 |     2 | Dell R815 | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+-----------+----------------+-----------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R2:PC:C21 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| c21-edge-sx6025    |    43 |    43 | Mellanox SX6025 | c3ddb          | cnh MLSC-I      |
+| r2-pc-c21-sw2      |    42 |    42 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| switch-C21         |    41 |    41 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| nfs001             |    39 |    40 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node099            |    37 |    38 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node098            |    35 |    36 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node097            |    33 |    34 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node096            |    31 |    32 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node095            |    29 |    30 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node094            |    27 |    28 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node093            |    25 |    26 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node092            |    23 |    24 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node091            |    21 |    22 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node090            |    19 |    20 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node089            |    17 |    18 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node088            |    15 |    16 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node087            |    13 |    14 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node086            |    11 |    12 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node085            |     9 |    10 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node084            |     7 |     8 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node083            |     5 |     6 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node082            |     3 |     4 | Dell R815       | c3ddb          | cnh MLSC-I      |
+| node081            |     1 |     2 | Dell R815       | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R2:PC:C23 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| c23-edge-sx6025    |    43 |    43 | Mellanox SX6025 | c3ddb          | cnh MLSC-I      |
+| r2-pc-c23-sw       |    42 |    42 | Dell PC5548     | c3ddb          | cnh MLSC-I      |
+| iml-001            |    41 |    41 | Dell R320       | c3ddb          | cnh MLSC-I      |
+| mds-001            |    40 |    40 | Dell R620       | c3ddb          | cnh MLSC-I      |
+| mds-002            |    39 |    39 | Dell R620       | c3ddb          | cnh MLSC-I      |
+| c23-md3220         |    37 |    38 | Dell MD3220     | c3ddb          | cnh MLSC-I      |
+| oss-001            |    36 |    36 | Dell R620       | c3ddb          | cnh MLSC-I      |
+| oss-002            |    35 |    35 | Dell R620       | c3ddb          | cnh MLSC-I      |
+| c23-mds3260-4      |    31 |    34 | Dell MDS3260    | c3ddb          | cnh MLSC-I      |
+| c23-mds3260-3      |    27 |    30 | Dell MDS3260    | c3ddb          | cnh MLSC-I      |
+| c23-mds3260e-4     |    23 |    26 | Dell MDS3260e   | c3ddb          | cnh MLSC-I      |
+| c23-mds3260e-3     |    19 |    22 | Dell MDS3260e   | c3ddb          | cnh MLSC-I      |
+| mds-003            |    18 |    18 | Dell R620       | c3ddb          | cnh MLSC-I      |
+| mds-004            |    17 |    17 | Dell R620       | c3ddb          | cnh MLSC-I      |
+| c23-mds3260-2      |    13 |    16 | Dell MDS3260    | c3ddb          | cnh MLSC-I      |
+| c23-mds3260-1      |     9 |    12 | Dell MDS3260    | c3ddb          | cnh MLSC-I      |
+| c23-mds3260e-2     |     5 |     8 | Dell MDS3260e   | c3ddb          | cnh MLSC-I      |
+| c23-mds3260e-1     |     1 |     4 | Dell MDS3260e   | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+-----------------+----------------+-----------------+
+| R1:PC:C18 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-----------------+----------------+-----------------|
+| c18-sx6036f-l1-2   |    44 |    44 | Melloanox 6036F | c3ddb          | cnh MLSC-II     |
+| node331            |    37 |    40 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node330            |    33 |    36 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node329            |    29 |    32 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node328            |    25 |    28 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node327            |    21 |    24 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node326            |    17 |    20 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node325            |    13 |    16 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node324            |     9 |    12 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node323            |     5 |     8 | HP DL-580       | c3ddb          | cnh MLSC-II     |
+| node322            |     1 |     4 | HP DL-580       | c3ddb          | cnh MLSC-II     |
++--------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+---------------+----------------+-----------------+
+| R1:PC:C20 Device   |   Ulo |   Uhi | Device        | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+---------------+----------------+-----------------|
+| c20-hp5930-l1-1    |    44 |    44 | HP 5930 40G   | c3ddb          | cnh MLSC-II     |
+| c20-hp5930-l1-2    |    43 |    43 | HP 5930 40G   | c3ddb          | cnh MLSC-II     |
+| c20-hp5900AF-1     |    42 |    42 | HP 5900AF 10G | c3ddb          | cnh MLSC-II     |
+| node321            |    37 |    40 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node320            |    33 |    36 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node319            |    29 |    32 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node318            |    25 |    28 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node317            |    21 |    24 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node316            |    17 |    20 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node315            |    13 |    16 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node314            |     9 |    12 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node313            |     5 |     8 | HP DL-580     | c3ddb          | cnh MLSC-II     |
+| node312            |     1 |     4 | HP DL-580     | c3ddb          | cnh MLSC-II     |
++--------------------+-------+-------+---------------+----------------+-----------------+
+
++--------------------+-------+-------+------------------+----------------+-----------------+
+| R1:PC:C22 Device   |   Ulo |   Uhi | Device           | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+------------------+----------------+-----------------|
+| c22-sx6036-l1-1    |    44 |    44 | Mellanox SX6036F | c3ddb          | cnh MLSC-II     |
+| node311            |    37 |    40 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node310            |    33 |    36 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node309            |    29 |    32 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node308            |    25 |    28 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node307            |    21 |    24 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node306            |    17 |    20 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node305            |    13 |    16 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node304            |     9 |    12 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node303            |     5 |     8 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node302            |     1 |     4 | HP DL-580        | c3ddb          | cnh MLSC-II     |
++--------------------+-------+-------+------------------+----------------+-----------------+
+
++--------------------+-------+-------+------------------+----------------+-----------------+
+| R1:PC:C24 Device   |   Ulo |   Uhi | Device           | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+------------------+----------------+-----------------|
+| c24-sx6036-l2-1    |    43 |    43 | Mellanox SX6036F | c3ddb          | cnh MLSC-II     |
+| c24-hp2920-48g-2   |    42 |    42 | HP 2920 Switch   | c3ddb          | cnh MLSC-II     |
+| c24-hp2920-48g-1   |    41 |    41 | HP 2920 Switch   | c3ddb          | cnh MLSC-II     |
+| c24-msa2040        |    37 |    38 | HP MSA2040       | c3ddb          | cnh MLSC-II     |
+| c24-dl360-4        |    36 |    36 | HP DL-360        | c3ddb          | cnh MLSC-II     |
+| c24-dl360-3        |    35 |    35 | HP DL-360        | c3ddb          | cnh MLSC-II     |
+| c24-dl360-2        |    34 |    34 | HP DL-360        | c3ddb          | cnh MLSC-II     |
+| c24-dl360-1        |    33 |    33 | HP DL-360        | c3ddb          | cnh MLSC-II     |
+| c24-sl4540-3       |    29 |    32 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| c24-sl4540-2       |    25 |    29 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| c24-sl4540-1       |    20 |    24 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node301            |    16 |    19 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node300            |    12 |    15 | HP DL-580        | c3ddb          | cnh MLSC-II     |
+| node201-smi        |    11 |    11 | SGI SMI Unit     | c3ddb          | cnh MLSC-I      |
+| node201            |     1 |    10 | SGI 4TiB UV2000  | c3ddb          | cnh MLSC-I      |
++--------------------+-------+-------+------------------+----------------+-----------------+
+
