@@ -62,11 +62,23 @@ for row in rackCSVreader:
 #print(primaryGroup)
 
 locSTR=(str("r"+rowNo[0].strip()+"-p"+podNo[0].strip()).upper() + "-" +"C"+cabNo[0].strip())
-outFile = (locSTR +"-csv.txt")
+outFile = (locSTR +"-initialize-objects-csv.txt")
 f = file(outFile, 'w')
 sys.stdout = f
 
-print("RACK;MIT;MGHPCC;"+locSTR)
+print("RACK;MIT;MGHPCC;"+str("r"+rowNo[0].strip()+"-p"+podNo[0].strip()).upper() + ";" +"C"+cabNo[0].strip())
+
+for i in range(rowCounter):
+	try:	
+		print("OBJECT;"+ str(objectType[i]).upper()+";"+ deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +(deviceType[i].strip())+ ";"+deviceName[i].strip()+"-"+primaryPool[i].strip())
+		print("OBJECTTAG;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +primaryPool[i].strip()))
+		
+	except(ValueError):
+		pass
+	
+outFile = (locSTR +"-update-csv.txt")
+g = file(outFile, 'w')
+sys.stdout = g
 
 for i in range(rowCounter):
 	try:	
@@ -75,11 +87,11 @@ for i in range(rowCounter):
 		#print("DEBUG" + deviceName[i]+ "loc="+fLoc+ " Unumbers="+uRange+" DEVICETYPE="+deviceType[i]+" PrimaryPool="+primaryPool[i]+" primaryGroup="+primaryGroup[i])
 		#template="{deviceName:40}|{Pool:20}|{deviceType:30}"
 		#print template.format(deviceName=deviceName[i],deviceType=deviceType[i],Pool=primaryPool[i])
-		print("OBJECT;"+ objectType[i]+";"+ deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +(deviceType[i].strip())+ ";"+deviceName[i].strip()+"-"+primaryPool[i].strip())
-		print("OBJECTTAG;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +primaryPool[i].strip()))
+		
 		print("OBJECTATTRIBUTE;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" + "COMMENT;"+ "Primary Pool: " + primaryPool[i] + "    Primary Group: " + primaryGroup[i]))
 		print("RACKASSIGNMENT;"+deviceName[i].strip()+"-"+primaryPool[i].strip()+";"+"C"+cabNo[0].strip()+";"+uRange)+";"+((len(range(int(uLo[i]),int(uHi[i]))))*"fib,"+"fib")
 	except(ValueError):
-		pass		
+		pass	
+
 sys.stdout = orig_stdout
 f.close()	

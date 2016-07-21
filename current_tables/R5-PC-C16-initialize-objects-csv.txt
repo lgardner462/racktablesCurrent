@@ -1,0 +1,33 @@
+RACK;MIT;MGHPCC;R5-PC;C16
+OBJECT;SERVER;node427-engaging1;HP ProLiant DL60 Gen9/ProLiant DL60 Gen9;node427-engaging1
+OBJECT;SERVER;node426-engaging1;HP ProLiant DL60 Gen9/ProLiant DL60 Gen9;node426-engaging1
+OBJECT;SERVER;node425-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9;node425-engaging1
+OBJECT;SERVER;node424-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9;node424-engaging1
+OBJECT;SERVER;node423-engaging1;HP ProLiant DL380 Gen9/ProLiant DL380 Gen9 with dual K80 @256GiB;node423-engaging1
+OBJECT;SERVER;node422-engaging1;HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB;node422-engaging1
+OBJECT;SERVER;node421-engaging1;HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB;node421-engaging1
+OBJECT;SERVER;node420-engaging1;HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB;node420-engaging1
+OBJECT;SERVER;node419-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node419-engaging1
+OBJECT;SERVER;node418-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node418-engaging1
+OBJECT;SERVER;node417-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node417-engaging1
+OBJECT;SERVER;node416-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node416-engaging1
+OBJECT;SERVER;node415-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node415-engaging1
+OBJECT;SERVER;node414-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node414-engaging1
+OBJECT;SERVER;node413-engaging1;HP ProLiant DL60 @ 128GiB;node413-engaging1
+OBJECT;SERVER;node412-engaging1;HP ProLiant DL60 @ 128GiB;node412-engaging1
+OBJECT;SERVER;node411-engaging1;HP ProLiant DL60 @ 128GiB;node411-engaging1
+OBJECT;SERVER;node410-engaging1;HP ProLiant DL60 @ 128GiB;node410-engaging1
+OBJECT;SERVER;node409-engaging1;HP ProLiant DL60 @ 128GiB;node409-engaging1
+OBJECT;SERVER;node408-engaging1;HP ProLiant DL60 @ 128GiB;node408-engaging1
+OBJECT;SERVER;node407-engaging1;HP ProLiant DL60 @ 128GiB;node407-engaging1
+OBJECT;SERVER;node406-engaging1;HP ProLiant DL60 @ 128GiB;node406-engaging1
+OBJECT;SERVER;node405-engaging1;HP ProLiant DL60 @ 128GiB;node405-engaging1
+OBJECT;SERVER;node404-engaging1;HP ProLiant DL60 @ 128GiB;node404-engaging1
+OBJECT;SERVER;node403-engaging1;HP ProLiant DL60 @ 128GiB;node403-engaging1
+OBJECT;SERVER;node402-engaging1;HP ProLiant DL60 @ 128GiB;node402-engaging1
+OBJECT;SERVER;node401-engaging1;HP ProLiant DL60 @ 128GiB;node401-engaging1
+OBJECT;SERVER;node400-engaging1;HP ProLiant DL60 @ 128GiB;node400-engaging1
+OBJECT;SERVER;node399-engaging1;HP ProLiant DL60 @ 128GiB;node399-engaging1
+OBJECT;SERVER;node398-engaging1;HP ProLiant DL60 @ 128GiB;node398-engaging1
+OBJECT;SERVER;node397-engaging1;HP ProLiant DL60 @ 128GiB;node397-engaging1
+OBJECT;SERVER;node396-engaging1;HP ProLiant DL60 @ 128GiB;node396-engaging1

@@ -1,129 +1,96 @@
-RACK;MIT;MGHPCC;R5-PC-C16
-OBJECT;Server;node427-engaging1;HP ProLiant DL60 Gen9/ProLiant DL60 Gen9;node427-engaging1
 OBJECTTAG;node427-engaging1;engaging1
 OBJECTATTRIBUTE;node427-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: cnh RC2
 RACKASSIGNMENT;node427-engaging1;C16;36;fib
-OBJECT;Server;node426-engaging1;HP ProLiant DL60 Gen9/ProLiant DL60 Gen9;node426-engaging1
 OBJECTTAG;node426-engaging1;engaging1
 OBJECTATTRIBUTE;node426-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: cnh RC2
 RACKASSIGNMENT;node426-engaging1;C16;35;fib
-OBJECT;Server;node425-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9;node425-engaging1
 OBJECTTAG;node425-engaging1;engaging1
 OBJECTATTRIBUTE;node425-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: cnh RC2
 RACKASSIGNMENT;node425-engaging1;C16;34;fib
-OBJECT;Server;node424-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9;node424-engaging1
 OBJECTTAG;node424-engaging1;engaging1
 OBJECTATTRIBUTE;node424-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: cnh RC2
 RACKASSIGNMENT;node424-engaging1;C16;33;fib
-OBJECT;Server;node423-engaging1;HP ProLiant DL380 Gen9/ProLiant DL380 Gen9 with dual K80 @256GiB;node423-engaging1
 OBJECTTAG;node423-engaging1;engaging1
 OBJECTATTRIBUTE;node423-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: gprieto (William Frank, wfrank@mit.edu)
 RACKASSIGNMENT;node423-engaging1;C16;31,32;fib,fib
-OBJECT;Server;node422-engaging1;HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB;node422-engaging1
 OBJECTTAG;node422-engaging1;engaging1
 OBJECTATTRIBUTE;node422-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: chisholm
 RACKASSIGNMENT;node422-engaging1;C16;30;fib
-OBJECT;Server;node421-engaging1;HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB;node421-engaging1
 OBJECTTAG;node421-engaging1;engaging1
 OBJECTATTRIBUTE;node421-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: chisholm
 RACKASSIGNMENT;node421-engaging1;C16;29;fib
-OBJECT;Server;node420-engaging1;HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB;node420-engaging1
 OBJECTTAG;node420-engaging1;engaging1
 OBJECTATTRIBUTE;node420-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: chisholm
 RACKASSIGNMENT;node420-engaging1;C16;28;fib
-OBJECT;Server;node419-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node419-engaging1
 OBJECTTAG;node419-engaging1;engaging1
 OBJECTATTRIBUTE;node419-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: follows (darwin)
 RACKASSIGNMENT;node419-engaging1;C16;27;fib
-OBJECT;Server;node418-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node418-engaging1
 OBJECTTAG;node418-engaging1;engaging1
 OBJECTATTRIBUTE;node418-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: follows (darwin)
 RACKASSIGNMENT;node418-engaging1;C16;26;fib
-OBJECT;Server;node417-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node417-engaging1
 OBJECTTAG;node417-engaging1;engaging1
 OBJECTATTRIBUTE;node417-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: follows (darwin)
 RACKASSIGNMENT;node417-engaging1;C16;25;fib
-OBJECT;Server;node416-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node416-engaging1
 OBJECTTAG;node416-engaging1;engaging1
 OBJECTATTRIBUTE;node416-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: follows (darwin)
 RACKASSIGNMENT;node416-engaging1;C16;24;fib
-OBJECT;Server;node415-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node415-engaging1
 OBJECTTAG;node415-engaging1;engaging1
 OBJECTATTRIBUTE;node415-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: follows (darwin)
 RACKASSIGNMENT;node415-engaging1;C16;23;fib
-OBJECT;Server;node414-engaging1;HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB;node414-engaging1
 OBJECTTAG;node414-engaging1;engaging1
 OBJECTATTRIBUTE;node414-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: follows (darwin)
 RACKASSIGNMENT;node414-engaging1;C16;22;fib
-OBJECT;Server;node413-engaging1;HP ProLiant DL60 @ 128GiB;node413-engaging1
 OBJECTTAG;node413-engaging1;engaging1
 OBJECTATTRIBUTE;node413-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node413-engaging1;C16;18;fib
-OBJECT;Server;node412-engaging1;HP ProLiant DL60 @ 128GiB;node412-engaging1
 OBJECTTAG;node412-engaging1;engaging1
 OBJECTATTRIBUTE;node412-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node412-engaging1;C16;17;fib
-OBJECT;Server;node411-engaging1;HP ProLiant DL60 @ 128GiB;node411-engaging1
 OBJECTTAG;node411-engaging1;engaging1
 OBJECTATTRIBUTE;node411-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node411-engaging1;C16;16;fib
-OBJECT;Server;node410-engaging1;HP ProLiant DL60 @ 128GiB;node410-engaging1
 OBJECTTAG;node410-engaging1;engaging1
 OBJECTATTRIBUTE;node410-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node410-engaging1;C16;15;fib
-OBJECT;Server;node409-engaging1;HP ProLiant DL60 @ 128GiB;node409-engaging1
 OBJECTTAG;node409-engaging1;engaging1
 OBJECTATTRIBUTE;node409-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node409-engaging1;C16;14;fib
-OBJECT;Server;node408-engaging1;HP ProLiant DL60 @ 128GiB;node408-engaging1
 OBJECTTAG;node408-engaging1;engaging1
 OBJECTATTRIBUTE;node408-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node408-engaging1;C16;13;fib
-OBJECT;Server;node407-engaging1;HP ProLiant DL60 @ 128GiB;node407-engaging1
 OBJECTTAG;node407-engaging1;engaging1
 OBJECTATTRIBUTE;node407-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node407-engaging1;C16;12;fib
-OBJECT;Server;node406-engaging1;HP ProLiant DL60 @ 128GiB;node406-engaging1
 OBJECTTAG;node406-engaging1;engaging1
 OBJECTATTRIBUTE;node406-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node406-engaging1;C16;11;fib
-OBJECT;Server;node405-engaging1;HP ProLiant DL60 @ 128GiB;node405-engaging1
 OBJECTTAG;node405-engaging1;engaging1
 OBJECTATTRIBUTE;node405-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node405-engaging1;C16;10;fib
-OBJECT;Server;node404-engaging1;HP ProLiant DL60 @ 128GiB;node404-engaging1
 OBJECTTAG;node404-engaging1;engaging1
 OBJECTATTRIBUTE;node404-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node404-engaging1;C16;9;fib
-OBJECT;Server;node403-engaging1;HP ProLiant DL60 @ 128GiB;node403-engaging1
 OBJECTTAG;node403-engaging1;engaging1
 OBJECTATTRIBUTE;node403-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node403-engaging1;C16;8;fib
-OBJECT;Server;node402-engaging1;HP ProLiant DL60 @ 128GiB;node402-engaging1
 OBJECTTAG;node402-engaging1;engaging1
 OBJECTATTRIBUTE;node402-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node402-engaging1;C16;7;fib
-OBJECT;Server;node401-engaging1;HP ProLiant DL60 @ 128GiB;node401-engaging1
 OBJECTTAG;node401-engaging1;engaging1
 OBJECTATTRIBUTE;node401-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node401-engaging1;C16;6;fib
-OBJECT;Server;node400-engaging1;HP ProLiant DL60 @ 128GiB;node400-engaging1
 OBJECTTAG;node400-engaging1;engaging1
 OBJECTATTRIBUTE;node400-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node400-engaging1;C16;5;fib
-OBJECT;Server;node399-engaging1;HP ProLiant DL60 @ 128GiB;node399-engaging1
 OBJECTTAG;node399-engaging1;engaging1
 OBJECTATTRIBUTE;node399-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node399-engaging1;C16;4;fib
-OBJECT;Server;node398-engaging1;HP ProLiant DL60 @ 128GiB;node398-engaging1
 OBJECTTAG;node398-engaging1;engaging1
 OBJECTATTRIBUTE;node398-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node398-engaging1;C16;3;fib
-OBJECT;Server;node397-engaging1;HP ProLiant DL60 @ 128GiB;node397-engaging1
 OBJECTTAG;node397-engaging1;engaging1
 OBJECTATTRIBUTE;node397-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node397-engaging1;C16;2;fib
-OBJECT;Server;node396-engaging1;HP ProLiant DL60 @ 128GiB;node396-engaging1
 OBJECTTAG;node396-engaging1;engaging1
 OBJECTATTRIBUTE;node396-engaging1;COMMENT;Primary Pool: engaging1    Primary Group: g4nier
 RACKASSIGNMENT;node396-engaging1;C16;1;fib
