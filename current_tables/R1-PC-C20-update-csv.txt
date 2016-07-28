@@ -1,0 +1,26 @@
+OBJECTATTRIBUTE;c20-hp5930-l1-1-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c20-hp5930-l1-1-c3ddb;C20;44;fib;R1-PC
+OBJECTATTRIBUTE;c20-hp5930-l1-2-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c20-hp5930-l1-2-c3ddb;C20;43;fib;R1-PC
+OBJECTATTRIBUTE;c20-hp5900AF-1-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c20-hp5900AF-1-c3ddb;C20;42;fib;R1-PC
+OBJECTATTRIBUTE;node321-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node321-c3ddb;C20;37,38,39,40;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node320-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node320-c3ddb;C20;33,34,35,36;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node319-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node319-c3ddb;C20;29,30,31,32;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node318-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node318-c3ddb;C20;25,26,27,28;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node317-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node317-c3ddb;C20;21,22,23,24;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node316-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node316-c3ddb;C20;17,18,19,20;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node315-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node315-c3ddb;C20;13,14,15,16;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node314-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node314-c3ddb;C20;9,10,11,12;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node313-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node313-c3ddb;C20;5,6,7,8;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node312-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node312-c3ddb;C20;1,2,3,4;fib,fib,fib,fib;R1-PC

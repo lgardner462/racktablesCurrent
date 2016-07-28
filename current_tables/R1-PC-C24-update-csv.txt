@@ -1,0 +1,30 @@
+OBJECTATTRIBUTE;c24-sx6036-l2-1-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-sx6036-l2-1-c3ddb;C24;43;fib;R1-PC
+OBJECTATTRIBUTE;c24-hp2920-48g-2-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-hp2920-48g-2-c3ddb;C24;42;fib;R1-PC
+OBJECTATTRIBUTE;c24-hp2920-48g-1-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-hp2920-48g-1-c3ddb;C24;41;fib;R1-PC
+OBJECTATTRIBUTE;c24-msa2040-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-msa2040-c3ddb;C24;37,38;fib,fib;R1-PC
+OBJECTATTRIBUTE;c24-dl360-4-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-dl360-4-c3ddb;C24;36;fib;R1-PC
+OBJECTATTRIBUTE;c24-dl360-3-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-dl360-3-c3ddb;C24;35;fib;R1-PC
+OBJECTATTRIBUTE;c24-dl360-2-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-dl360-2-c3ddb;C24;34;fib;R1-PC
+OBJECTATTRIBUTE;c24-dl360-1-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-dl360-1-c3ddb;C24;33;fib;R1-PC
+OBJECTATTRIBUTE;c24-sl4540-3-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-sl4540-3-c3ddb;C24;29,30,31,32;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;c24-sl4540-2-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-sl4540-2-c3ddb;C24;25,26,27,28,29;fib,fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;c24-sl4540-1-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;c24-sl4540-1-c3ddb;C24;20,21,22,23,24;fib,fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node301-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node301-c3ddb;C24;16,17,18,19;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node300-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-II
+RACKASSIGNMENT;node300-c3ddb;C24;12,13,14,15;fib,fib,fib,fib;R1-PC
+OBJECTATTRIBUTE;node201-smi-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node201-smi-c3ddb;C24;11;fib;R1-PC
+OBJECTATTRIBUTE;node201-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node201-c3ddb;C24;1,2,3,4,5,6,7,8,9,10;fib,fib,fib,fib,fib,fib,fib,fib,fib,fib;R1-PC

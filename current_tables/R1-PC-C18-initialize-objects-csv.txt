@@ -1,0 +1,23 @@
+RACK;MIT;MGHPCC;R1-PC;C18
+OBJECT;NETWORKSWITCH;c18-sx6036f-l1-2-c3ddb;Melloanox 6036F;c18-sx6036f-l1-2-c3ddb
+OBJECTTAG;c18-sx6036f-l1-2-c3ddb;c3ddb
+OBJECT;SERVER;node331-c3ddb;HP DL-580;node331-c3ddb
+OBJECTTAG;node331-c3ddb;c3ddb
+OBJECT;SERVER;node330-c3ddb;HP DL-580;node330-c3ddb
+OBJECTTAG;node330-c3ddb;c3ddb
+OBJECT;SERVER;node329-c3ddb;HP DL-580;node329-c3ddb
+OBJECTTAG;node329-c3ddb;c3ddb
+OBJECT;SERVER;node328-c3ddb;HP DL-580;node328-c3ddb
+OBJECTTAG;node328-c3ddb;c3ddb
+OBJECT;SERVER;node327-c3ddb;HP DL-580;node327-c3ddb
+OBJECTTAG;node327-c3ddb;c3ddb
+OBJECT;SERVER;node326-c3ddb;HP DL-580;node326-c3ddb
+OBJECTTAG;node326-c3ddb;c3ddb
+OBJECT;SERVER;node325-c3ddb;HP DL-580;node325-c3ddb
+OBJECTTAG;node325-c3ddb;c3ddb
+OBJECT;SERVER;node324-c3ddb;HP DL-580;node324-c3ddb
+OBJECTTAG;node324-c3ddb;c3ddb
+OBJECT;SERVER;node323-c3ddb;HP DL-580;node323-c3ddb
+OBJECTTAG;node323-c3ddb;c3ddb
+OBJECT;SERVER;node322-c3ddb;HP DL-580;node322-c3ddb
+OBJECTTAG;node322-c3ddb;c3ddb
