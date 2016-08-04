@@ -1,0 +1,7 @@
+'STUFF' , '5' , 'b' , '06' , '43' , '44' , 'STUFF' , '{ppool: "IS&T"},{pgroup: "IS&T"}' , 'BlackBox'
+'FEX' , '5' , 'b' , '06' , '40' , '40' , 'Cisco Nexus 2248TP-E' , '{ppool: "IS&T"},{pgroup: "IS&T"}' , 'BlackBox'
+'r5-pb-c06-u39' , '5' , 'b' , '06' , '39' , '39' , 'Dell N3048' , '{ppool: "engaging"},{pgroup: "cnh NSF"}' , 'NetworkSwitch'
+'r5-pb-c06-u38-ib' , '5' , 'b' , '06' , '38' , '38' , 'Mellanox SX6025' , '{ppool: "engaging"},{pgroup: "cnh NSF"}' , 'NetworkSwitch'
+'eofe-data006' , '5' , 'b' , '06' , '09' , '10' , 'HP Apollo 4200' , '{ppool: "engaging"},{pgroup: "Elazer Edelman (IMES, brownjy)"}' , 'DiskArray'
+'eofe-data005' , '5' , 'b' , '06' , '05' , '08' , 'HP Apollo 4500' , '{ppool: "engaging"},{pgroup: "Simons/Chisholm"}' , 'DiskArray'
+'eofe-data004' , '5' , 'b' , '06' , '01' , '04' , 'HP Apollo 4500' , '{ppool: "engaging"},{pgroup: "Picower"}' , 'DiskArray'

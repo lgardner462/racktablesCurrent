@@ -1,0 +1,2 @@
+'R5-PC-C11-U22' , '5' , 'c' , '11' , '22' , '22' , 'Dell N4032F' , '{ppool: "engaging"},{pgroup: "cnh RC"}' , 'NetworkSwitch'
+'R5-PC-C11-U21' , '5' , 'c' , '11' , '21' , '21' , 'Dell N3048' , '{ppool: "engaging"},{pgroup: "cnh RC"}' , 'NetworkSwitch'

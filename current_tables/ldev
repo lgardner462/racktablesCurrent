@@ -1,3 +1,9 @@
+# addDev() duplicate  STUFF
+# addDev() duplicate  STUFF
+# addDev() duplicate  FEX
+# addDev() duplicate  STUFF
+# addDev() duplicate  STUFF
+# addDev() duplicate  STUFF
 +----------------------+-------+-------+----------------------+----------------+-----------------+
 | R5:PA:C01 Device     |   Ulo |   Uhi | Device               | Primary Pool   | Primary Group   |
 |----------------------+-------+-------+----------------------+----------------+-----------------|
@@ -518,11 +524,39 @@
 | r5-pa-c24-fex--1   |    40 |    40 | Cisco Fex | mit_ist        | MIT IST         |
 +--------------------+-------+-------+-----------+----------------+-----------------+
 
-+---------------------------------+-------+-------+----------+----------------+-----------------+
-| R5:PB:C04 Device                |   Ulo |   Uhi | Device   | Primary Pool   | Primary Group   |
-|---------------------------------+-------+-------+----------+----------------+-----------------|
-| r5-pb-c04-eofedata002-md3460e-1 |     1 |     4 | MD3460e  | engaging1      | cnh NSF         |
-+---------------------------------+-------+-------+----------+----------------+-----------------+
++--------------------------------+-------+-------+-----------------+----------------+-----------------+
+| R5:PB:C04 Device               |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group   |
+|--------------------------------+-------+-------+-----------------+----------------+-----------------|
+| mghpcc-gmon.mit.edu            |    39 |    39 | Supermicro      | engaging       | cnh RC          |
+| r5-pb-c04-u38-ib               |    38 |    38 | Mellanox SX6036 | engaging       | cnh RC          |
+| imagetesting                   |    37 |    37 | Supermicro      | engaging       | cnh RC          |
+| haasheadnodevms                |    36 |    36 | Supermicro      | engaging       | cnh RC          |
+| r5-pb-c04-u35                  |    35 |    35 | Dell N3048      | engaging       | cnh NSF         |
+| r5-pb-c04-u34                  |    34 |    34 | Dell N4032F     | engaging       | cnh NSF         |
+| eofe-data003                   |    32 |    33 | Supermicro      | engaging       | Rutledge        |
+| eofe-service004                |    22 |    22 | Dell R420       | engaging       | cnh RC          |
+| eofe-service003                |    21 |    21 | Dell R420       | engaging       | cnh RC          |
+| eofe-service002                |    20 |    20 | Dell R420       | engaging       | cnh RC          |
+| eofe-service001                |    19 |    19 | Dell R420       | engaging       | cnh RC          |
+| eofe-netapp                    |    15 |    18 | NetApp          | engaging       | cnh RC          |
+| eofe-data002                   |    14 |    14 | Dell R420       | engaging       | cnh RC          |
+| eofe-data001                   |    13 |    13 | Dell R420       | engaging       | cnh RC          |
+| eofe-data002-120drive-001-ext1 |     9 |    12 | Dell MD3460e    | engaging       | cnh RC          |
+| eofe-data002-120drive-001      |     5 |     8 | Dell MD3460     | engaging       | cnh RC          |
+| eofe-data001-60drive-001       |     1 |     4 | Dell MD3460     | engaging       | cnh RC          |
++--------------------------------+-------+-------+-----------------+----------------+-----------------+
+
++--------------------+-------+-------+----------------------+----------------+--------------------------------+
+| R5:PB:C06 Device   |   Ulo |   Uhi | Device               | Primary Pool   | Primary Group                  |
+|--------------------+-------+-------+----------------------+----------------+--------------------------------|
+| STUFF              |    43 |    44 | STUFF                | IS&T           | IS&T                           |
+| FEX                |    40 |    40 | Cisco Nexus 2248TP-E | IS&T           | IS&T                           |
+| r5-pb-c06-u39      |    39 |    39 | Dell N3048           | engaging       | cnh NSF                        |
+| r5-pb-c06-u38-ib   |    38 |    38 | Mellanox SX6025      | engaging       | cnh NSF                        |
+| eofe-data006       |     9 |    10 | HP Apollo 4200       | engaging       | Elazer Edelman (IMES, brownjy) |
+| eofe-data005       |     5 |     8 | HP Apollo 4500       | engaging       | Simons/Chisholm                |
+| eofe-data004       |     1 |     4 | HP Apollo 4500       | engaging       | Picower                        |
++--------------------+-------+-------+----------------------+----------------+--------------------------------+
 
 +--------------------+-------+-------+-------------+----------------+-------------------------------------+
 | R5:PB:C14 Device   |   Ulo |   Uhi | Device      | Primary Pool   | Primary Group                       |
@@ -538,6 +572,13 @@
 | imes-public-metal  |     5 |     5 | Dell R630   | imes-lcp       | imes rgmark@mit.edu,ftorres@mit.edu |
 | imes-public-md001  |     1 |     4 | Dell MD3460 | imes-lcp       | imes rgmark@mit.edu,ftorres@mit.edu |
 +--------------------+-------+-------+-------------+----------------+-------------------------------------+
+
++-------------------------+-------+-------+--------------+----------------+-------------------------------------------+
+| R5:PC:C03 Device        |   Ulo |   Uhi | Device       | Primary Pool   | Primary Group                             |
+|-------------------------+-------+-------+--------------+----------------+-------------------------------------------|
+| willard-cluster-switch  |    38 |    38 | PSSC Cluster | willard        | Adam Willard, Chemistry, awillard@mit.edu |
+| willard-cluster-compute |     1 |    26 | PSSC Cluster | willard        | Adam Willard, Chemistry, awillard@mit.edu |
++-------------------------+-------+-------+--------------+----------------+-------------------------------------------+
 
 +----------------------+-------+-------+-------------------------+----------------+----------------------------------------------+
 | R5:PC:C09 Device     |   Ulo |   Uhi | Device                  | Primary Pool   | Primary Group                                |
@@ -577,6 +618,13 @@
 | node314              |     2 |     2 | Dell R430               | engaging1      | cnh RC2                                      |
 | node313              |     1 |     1 | Dell R430               | engaging1      | cnh RC2                                      |
 +----------------------+-------+-------+-------------------------+----------------+----------------------------------------------+
+
++--------------------+-------+-------+-------------+----------------+-----------------+
+| R5:PC:C11 Device   |   Ulo |   Uhi | Device      | Primary Pool   | Primary Group   |
+|--------------------+-------+-------+-------------+----------------+-----------------|
+| R5-PC-C11-U22      |    22 |    22 | Dell N4032F | engaging       | cnh RC          |
+| R5-PC-C11-U21      |    21 |    21 | Dell N3048  | engaging       | cnh RC          |
++--------------------+-------+-------+-------------+----------------+-----------------+
 
 +--------------------+-------+-------+-----------------+----------------+--------------------------------------------+
 | R5:PC:C13 Device   |   Ulo |   Uhi | Device          | Primary Pool   | Primary Group                              |
@@ -672,42 +720,45 @@
 | node428            |     1 |     1 | Dell R630    | engaging1      | ere (Elazer Edelman, Jonathan Brown, brownjy@mit.edu) |
 +--------------------+-------+-------+--------------+----------------+-------------------------------------------------------+
 
-+--------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------+
-| R5:PC:C16 Device   |   Ulo |   Uhi | Device                                                           | Primary Pool   | Primary Group                           |
-|--------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------|
-| node427            |    36 |    36 | HP ProLiant DL60 Gen9/ProLiant DL60 Gen9                         | engaging1      | cnh RC2                                 |
-| node426            |    35 |    35 | HP ProLiant DL60 Gen9/ProLiant DL60 Gen9                         | engaging1      | cnh RC2                                 |
-| node425            |    34 |    34 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9                       | engaging1      | cnh RC2                                 |
-| node424            |    33 |    33 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9                       | engaging1      | cnh RC2                                 |
-| node423            |    31 |    32 | HP ProLiant DL380 Gen9/ProLiant DL380 Gen9 with dual K80 @256GiB | engaging1      | gprieto (William Frank, wfrank@mit.edu) |
-| node422            |    30 |    30 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
-| node421            |    29 |    29 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
-| node420            |    28 |    28 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
-| node419            |    27 |    27 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
-| node418            |    26 |    26 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
-| node417            |    25 |    25 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
-| node416            |    24 |    24 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
-| node415            |    23 |    23 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
-| node414            |    22 |    22 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
-| node413            |    18 |    18 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node412            |    17 |    17 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node411            |    16 |    16 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node410            |    15 |    15 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node409            |    14 |    14 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node408            |    13 |    13 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node407            |    12 |    12 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node406            |    11 |    11 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node405            |    10 |    10 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node404            |     9 |     9 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node403            |     8 |     8 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node402            |     7 |     7 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node401            |     6 |     6 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node400            |     5 |     5 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node399            |     4 |     4 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node398            |     3 |     3 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node397            |     2 |     2 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-| node396            |     1 |     1 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
-+--------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------+
++---------------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------+
+| R5:PC:C16 Device          |   Ulo |   Uhi | Device                                                           | Primary Pool   | Primary Group                           |
+|---------------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------|
+| node427                   |    36 |    36 | HP ProLiant DL60 Gen9/ProLiant DL60 Gen9                         | engaging1      | cnh RC2                                 |
+| node426                   |    35 |    35 | HP ProLiant DL60 Gen9/ProLiant DL60 Gen9                         | engaging1      | cnh RC2                                 |
+| node425                   |    34 |    34 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9                       | engaging1      | cnh RC2                                 |
+| node424                   |    33 |    33 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9                       | engaging1      | cnh RC2                                 |
+| node423                   |    31 |    32 | HP ProLiant DL380 Gen9/ProLiant DL380 Gen9 with dual K80 @256GiB | engaging1      | gprieto (William Frank, wfrank@mit.edu) |
+| node422                   |    30 |    30 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
+| node421                   |    29 |    29 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
+| node420                   |    28 |    28 | HP ProLiant DL160 Gen9/ProLiant DL160 Gen9 @ 256GiB              | engaging1      | chisholm                                |
+| node419                   |    27 |    27 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node418                   |    26 |    26 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node417                   |    25 |    25 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node416                   |    24 |    24 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node415                   |    23 |    23 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| node414                   |    22 |    22 | HP ProLiant DL360 Gen9/ProLiant DL360 Gen9 @ 128GiB              | engaging1      | follows (darwin)                        |
+| R5-PC-C16-U21             |    21 |    21 | Dell N3048                                                       | engaging       | cnh RC                                  |
+| R5-PC-C16-U20-edge-sx6025 |    20 |    20 | Mellanox SX6025                                                  | engaging       | cnh RC                                  |
+| R5-PC-C16-U19             |    19 |    19 | Dell N3048                                                       | engaging       | cnh RC                                  |
+| node413                   |    18 |    18 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node412                   |    17 |    17 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node411                   |    16 |    16 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node410                   |    15 |    15 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node409                   |    14 |    14 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node408                   |    13 |    13 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node407                   |    12 |    12 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node406                   |    11 |    11 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node405                   |    10 |    10 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node404                   |     9 |     9 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node403                   |     8 |     8 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node402                   |     7 |     7 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node401                   |     6 |     6 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node400                   |     5 |     5 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node399                   |     4 |     4 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node398                   |     3 |     3 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node397                   |     2 |     2 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
+| node396                   |     1 |     1 | HP ProLiant DL60 @ 128GiB                                        | engaging1      | g4nier                                  |
++---------------------------+-------+-------+------------------------------------------------------------------+----------------+-----------------------------------------+
 
 +--------------------+-------+-------+------------------+----------------+-----------------+
 | R2:PC:C11 Device   |   Ulo |   Uhi | Device           | Primary Pool   | Primary Group   |
