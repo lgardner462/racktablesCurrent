@@ -9,7 +9,8 @@ from collections import defaultdict
 #Open CSV file
 try:
 	rackCSVreader = csv.reader(open(sys.argv[1],'rU'),quotechar="'",delimiter=',',skipinitialspace = True)
-	except(IOError):
+	next(reader, None) 
+except(IOError):
 	print("Inventory CSV file must be supplied in order to proceed.") 
 	sys.exit(0)
 #try:

@@ -49,6 +49,7 @@ deviceType1 = []
 primaryPool1 = []
 primaryGroup1 = []
 objectType1=[]
+fullCSV1=[]
 
 
 
@@ -61,6 +62,7 @@ objectType1=[]
 #		pass
 for row in rackCSVreader:
 	try:
+		fullCSV.append(str(row[:]))
 		deviceName.append(row[0].replace("'",""))
 		rowNo.append(row[1:2][0].replace("'",""))
 		podNo.append(row[2:3][0].replace("'",""))
@@ -81,6 +83,7 @@ for row in rackCSVreader:
 
 for row in rackCSVreader1:
 	try:
+		fullCSV1.append(str(row[:]).replace("'","").replace('"',"").replace("ppool:","").strip("{} ").strip("[]").replace(" ",""))
 		deviceName1.append(row[0].replace("'",""))
 		rowNo1.append(row[1:2][0].replace("'",""))
 		podNo1.append(row[2:3][0].replace("'",""))
@@ -99,7 +102,8 @@ for row in rackCSVreader1:
 	except(IndexError):
 		pass
 
-print(list(set(deviceName) - set(deviceName1)))
+print(list(set(tuple(fullCSV1)) - set(tuple(fullCSV))))
+
 
 #print(primaryGroup)
 

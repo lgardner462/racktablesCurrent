@@ -1,0 +1,24 @@
+RACK;MIT;MGHPCC;R5-PB;C04
+OBJECTATTRIBUTE;eofe-service004-engaging;COMMENT;Primary Pool: engaging	Primary Group: cnh RC
+RACKASSIGNMENT;eofe-service004-engaging;C04;22;fib;R5-PB
+RACK;MIT;MGHPCC;R5-PB;C04
+OBJECTATTRIBUTE;eofe-data001-engaging;COMMENT;Primary Pool: engaging	Primary Group: cnh RC
+RACKASSIGNMENT;eofe-data001-engaging;C04;13;fib;R5-PB
+RACK;MIT;MGHPCC;R5-PB;C04
+OBJECTATTRIBUTE;eofe-service001-engaging;COMMENT;Primary Pool: engaging	Primary Group: cnh RC
+RACKASSIGNMENT;eofe-service001-engaging;C04;19;fib;R5-PB
+RACK;MIT;MGHPCC;R5-PB;C04
+OBJECTATTRIBUTE;eofe-data002-engaging;COMMENT;Primary Pool: engaging	Primary Group: cnh RC
+RACKASSIGNMENT;eofe-data002-engaging;C04;14;fib;R5-PB
+RACK;MIT;MGHPCC;R5-PB;C04
+OBJECTATTRIBUTE;eofe-service003-engaging;COMMENT;Primary Pool: engaging	Primary Group: cnh RC
+RACKASSIGNMENT;eofe-service003-engaging;C04;21;fib;R5-PB
+RACK;MIT;MGHPCC;R5-PC;C09
+OBJECTATTRIBUTE;node329-engaging1;COMMENT;Primary Pool: engaging1	Primary Group: keating ( vxue@mit.edu )
+RACKASSIGNMENT;node329-engaging1;C09;17;fib;R5-PC
+RACK;MIT;MGHPCC;R5-PC;C09
+OBJECTATTRIBUTE;node330-engaging1;COMMENT;Primary Pool: engaging1	Primary Group: cnh NSF
+RACKASSIGNMENT;node330-engaging1;C09;18;fib;R5-PC
+RACK;MIT;MGHPCC;R5-PB;C04
+OBJECTATTRIBUTE;eofe-service002-engaging;COMMENT;Primary Pool: engaging	Primary Group: cnh RC
+RACKASSIGNMENT;eofe-service002-engaging;C04;20;fib;R5-PB
