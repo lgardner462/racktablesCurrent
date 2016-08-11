@@ -1,0 +1,38 @@
+OBJECTATTRIBUTE;node020-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node020-c3ddb;C13;37,38;fib,fib;R2-PC
+OBJECTATTRIBUTE;node018-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node018-c3ddb;C13;35,36;fib,fib;R2-PC
+OBJECTATTRIBUTE;node017-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node017-c3ddb;C13;33,34;fib,fib;R2-PC
+OBJECTATTRIBUTE;node016-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node016-c3ddb;C13;31,32;fib,fib;R2-PC
+OBJECTATTRIBUTE;node015-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node015-c3ddb;C13;29,30;fib,fib;R2-PC
+OBJECTATTRIBUTE;node014-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node014-c3ddb;C13;27,28;fib,fib;R2-PC
+OBJECTATTRIBUTE;node013-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node013-c3ddb;C13;25,26;fib,fib;R2-PC
+OBJECTATTRIBUTE;node012-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node012-c3ddb;C13;23,24;fib,fib;R2-PC
+OBJECTATTRIBUTE;node011-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node011-c3ddb;C13;21,22;fib,fib;R2-PC
+OBJECTATTRIBUTE;node010-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node010-c3ddb;C13;19,20;fib,fib;R2-PC
+OBJECTATTRIBUTE;node009-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node009-c3ddb;C13;17,18;fib,fib;R2-PC
+OBJECTATTRIBUTE;node008-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node008-c3ddb;C13;15,16;fib,fib;R2-PC
+OBJECTATTRIBUTE;node007-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node007-c3ddb;C13;13,14;fib,fib;R2-PC
+OBJECTATTRIBUTE;node006-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node006-c3ddb;C13;11,12;fib,fib;R2-PC
+OBJECTATTRIBUTE;node005-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node005-c3ddb;C13;9,10;fib,fib;R2-PC
+OBJECTATTRIBUTE;node004-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node004-c3ddb;C13;7,8;fib,fib;R2-PC
+OBJECTATTRIBUTE;node003-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node003-c3ddb;C13;5,6;fib,fib;R2-PC
+OBJECTATTRIBUTE;node002-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node002-c3ddb;C13;3,4;fib,fib;R2-PC
+OBJECTATTRIBUTE;node001-c3ddb;COMMENT;Primary Pool: c3ddb    Primary Group: cnh MLSC-I
+RACKASSIGNMENT;node001-c3ddb;C13;1,2;fib,fib;R2-PC

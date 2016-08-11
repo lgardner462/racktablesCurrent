@@ -144,9 +144,16 @@ for i in range(len(newEntryRows)):
 		objectType = str(newEntryRows[i][8]).upper()
 		primaryPool = str((newEntryRows[i][7]).split(",",1)[0].replace('{ppool: "',"").rstrip('"}'))
 		namePlusPool = deviceName + "-" + primaryPool
+		primaryGroup = str(newEntryRows[i][7]).split(",",1)[1].replace('{pgroup: "',"").rstrip('"}')
 		deviceType = str(newEntryRows[i][6]).strip()
+		rackName=str("r"+newEntryRows[i][1].strip()+"-p"+newEntryRows[i][2]).strip().upper()
+		cabinetName = str("C"+newEntryRows[i][3]).strip().upper()
+		uRange= str(range((int(newEntryRows[i][4])),(int(newEntryRows[i][5]))+1)).strip("[]").replace(" ","")
+		fibs=((len(range((int(newEntryRows[i][4])),(int(newEntryRows[i][5]))))))*"fib,"+"fib"
 		print("OBJECT;" + objectType+ ";" + namePlusPool + ";" + deviceType +";" + namePlusPool)
-
+		print("RACK;MIT;MGHPCC;"+rackName+";"+cabinetName)
+		print("OBJECTATTRIBUTE;"+namePlusPool+";"+"COMMENT;"+ "Primary Pool: " + primaryPool + "	Primary Group: " + primaryGroup)
+		print("RACKASSIGNMENT;"+namePlusPool+";"+cabinetName+";"+uRange+";"+fibs+";"+rackName)
 		#print("OBJECT;" + str(newEntryRows[i][8]).upper() + ";" +  str(newEntryRows[i][0]).strip() + "-" + str((newEntryRows[i][7]).split(",",1)[0].replace('{ppool: "',"").rstrip('"}')) + ";" + str(newEntryRows[i][6]).strip() + "-"+ str((newEntryRows[i][7]).split(",",1)[0].replace('{ppool: "',"").rstrip('"}')) + ";")
 	except(ValueError):
 		pass
