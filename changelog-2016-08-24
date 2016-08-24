@@ -1,0 +1,2 @@
+ITEM WAS: c20-hp5930-l1-1 ;1 ;c ;20 ;44 ;44 ;HP 5930 40G ;{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"} ;NetworkSwitch
+ITEM IS NOW: c20-hp5930-l1-1 ;1 ;b ;20 ;44 ;44 ;HP 5930 40G ;{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"} ;NetworkSwitch

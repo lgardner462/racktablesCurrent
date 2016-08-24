@@ -9,7 +9,6 @@ from collections import defaultdict
 #Open CSV file
 try:
 	rackCSVreader = csv.reader(open(sys.argv[1],'rU'),quotechar="'",delimiter=',',skipinitialspace = True)
-	next(reader, None) 
 except(IOError):
 	print("Inventory CSV file must be supplied in order to proceed.") 
 	sys.exit(0)
@@ -69,12 +68,12 @@ sys.stdout = f
 rackName=str("r"+rowNo[0].strip()+"-p"+podNo[0].strip()).upper()
 cabinetName = "C"+cabNo[0].strip()
 #cabinetName= str("r"+rowNo[0].strip()+"p"+podNo[0].strip()).lower()+"c"+cabNo[0].strip()
-print("RACK;MIT;MGHPCC;"+rackName+";"+cabinetName)
+#
 
 for i in range(rowCounter):
 	try:	
 		print("OBJECT;"+ str(objectType[i]).upper()+";"+ deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +(deviceType[i].strip())+ ";"+deviceName[i].strip()+"-"+primaryPool[i].strip())
-		print("OBJECTTAG;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +primaryPool[i].strip()))
+		#print("OBJECTTAG;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" +primaryPool[i].strip()))
 		
 	except(ValueError):
 		pass
@@ -90,9 +89,9 @@ for i in range(rowCounter):
 		#print("DEBUG" + deviceName[i]+ "loc="+fLoc+ " Unumbers="+uRange+" DEVICETYPE="+deviceType[i]+" PrimaryPool="+primaryPool[i]+" primaryGroup="+primaryGroup[i])
 		#template="{deviceName:40}|{Pool:20}|{deviceType:30}"
 		#print template.format(deviceName=deviceName[i],deviceType=deviceType[i],Pool=primaryPool[i])
-		
+		print("RACK;MIT;MGHPCC;"+"R"+rowNo[i].strip()+"-"+"P"+podNo[i].upper().strip()+";"+"C"+cabNo[i]).strip()+";"+"44"
 		print("OBJECTATTRIBUTE;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" + "COMMENT;"+ "Primary Pool: " + primaryPool[i] + "    Primary Group: " + primaryGroup[i]))
-		print("RACKASSIGNMENT;"+deviceName[i].strip()+"-"+primaryPool[i].strip()+";"+cabinetName+";"+uRange)+";"+((len(range(int(uLo[i]),int(uHi[i]))))*"fib,"+"fib;" + rackName)
+		print("RACKASSIGNMENT;"+deviceName[i].strip()+"-"+primaryPool[i].strip()+";"+"C"+cabNo[i].strip()+";"+uRange)+";"+((len(range(int(uLo[i]),int(uHi[i]))))*"fib,"+"fib;" + rackName)
 	except(ValueError):
 		pass	
 

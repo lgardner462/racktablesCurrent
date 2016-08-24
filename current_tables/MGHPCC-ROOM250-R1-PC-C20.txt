@@ -1,4 +1,4 @@
-'c20-hp5930-l1-1' , '1' , 'c' , '20' , '44' , '44' , 'HP 5930 40G' , '{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"}' , 'NetworkSwitch'
+'c20-hp5930-l1-1' , '1' , 'b' , '20' , '44' , '44' , 'HP 5930 40G' , '{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"}' , 'NetworkSwitch'
 'c20-hp5930-l1-2' , '1' , 'c' , '20' , '43' , '43' , 'HP 5930 40G' , '{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"}' , 'NetworkSwitch'
 'c20-hp5900AF-1' , '1' , 'c' , '20' , '42' , '42' , 'HP 5900AF 10G' , '{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"}' , 'NetworkSwitch'
 'node321' , '1' , 'c' , '20' , '37' , '40' , 'HP DL-580' , '{ppool: "c3ddb"},{pgroup: "cnh MLSC-II"}' , 'Server'

@@ -89,7 +89,7 @@ for i in range(rowCounter):
 		#print("DEBUG" + deviceName[i]+ "loc="+fLoc+ " Unumbers="+uRange+" DEVICETYPE="+deviceType[i]+" PrimaryPool="+primaryPool[i]+" primaryGroup="+primaryGroup[i])
 		#template="{deviceName:40}|{Pool:20}|{deviceType:30}"
 		#print template.format(deviceName=deviceName[i],deviceType=deviceType[i],Pool=primaryPool[i])
-		print("RACK;MIT;MGHPCC;"+"R"+rowNo[i].strip()+"-"+"P"+podNo[i].upper().strip()+";"+"C"+cabNo[i]).strip()
+		print("RACK;MIT;MGHPCC;"+"R"+rowNo[i].strip()+"-"+"P"+podNo[i].upper().strip()+";"+"C"+cabNo[i]).strip() + (";44")
 		print("OBJECTATTRIBUTE;"+str(deviceName[i].strip()+"-"+primaryPool[i].strip()+ ";" + "COMMENT;"+ "Primary Pool: " + primaryPool[i] + "    Primary Group: " + primaryGroup[i]))
 		print("RACKASSIGNMENT;"+deviceName[i].strip()+"-"+primaryPool[i].strip()+";"+"C"+cabNo[i].strip()+";"+uRange)+";"+((len(range(int(uLo[i]),int(uHi[i]))))*"fib,"+"fib;" + rackName)
 	except(ValueError):
