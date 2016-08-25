@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title>Import csv data</title>
+<link rel='ICON' type='image/x-icon' href='?module=chrome&uri=pix/favicon.ico' />
+<link rel=stylesheet type='text/css' href='?module=chrome&uri=css/pi.css' />
+<script type='text/javascript' src='?module=chrome&uri=js/jquery-1.4.4.min.js'></script>
+<script type='text/javascript' src='?module=chrome&uri=js/racktables.js'></script>
+<script type='text/javascript' src='?module=chrome&uri=js/tabindex_auto.js'></script>
+</head>
+<body>
+<div class="maintable">
+ <div class="mainheader">
+  <div style="float: right" class=greeting><a href='index.php?page=myaccount&tab=default'>RackTables Administrator</a> [ <a href='http://logout@172.16.1.234/racktables/?logout'>logout</a> ]</div>
+ MyCompanyName RackTables <a href="http://racktables.org" title="Visit RackTables site">0.20.11</a><ul class="qlinks"><li><a href="index.php?page=depot">Objects</a></li><li><a href="index.php?page=ipv4space">IPv4&nbsp;space</a></li><li><a href="index.php?page=rackspace">Rackspace</a></li></ul> </div>
+ <div class="menubar"><div class='searchbox' style='float:right'><form name=search method=get><input type=hidden name=page value=search><input type=hidden name=last_page value=import><input type=hidden name=last_tab value=default><label>Search:<input type=text name=q size=20 value=''></label></form></div><a href='index.php?page=index&tab=default'>Main page</a> : <a href='index.php?page=config&tab=default'>Configuration</a> : <a href='index.php?page=import&tab=default'>Import csv data</a></div>
+ <div class="tabbar"><div class=greynavbar><ul id=foldertab style='margin-bottom: 0px; padding-top: 10px;'><li><a class=current href='index.php?page=import&tab=default'>Import csv data</a></li>
+</ul></div></div>
+ <div class="msgbar"><div class=msg_error>Argument 'csv_text' of value &#039;&#039; is invalid (parameter is missing).</div></div>
+ <div class="pagebar"><div class=portlet><h2>Import Racktables data</h2><form method=post id=importData name=importData action='?module=redirect&page=import&tab=default&op=importData' enctype='multipart/form-data'><table border=0 cellspacing=0 cellpadding='5' align='center'><tr><td class=tdleft><label>File: <input type='file' size='10' name='file' tabindex=100></label></td><td class=tdcenter><input type=image name=submit class=icon src='?module=chrome&uri=pix/tango-document-new-big.png' border=0  title='Import file'></td></tr><tr><td>Manual input field</td></tr><tr><td valign=top colspan=2><textarea tabindex=101 name=csv_text rows=10 cols=80></textarea></td><td rowspan=2></td></tr></table></form><br></div>
+</div>
+</div>
+</body>
+</html>
